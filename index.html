@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f0e4">
+  <meta name="description" content="Take fun fandom personality quizzes for Harry Potter, Marvel, Star Wars, Disney, Lord of the Rings, and more. Find your closest character match.">
+  <meta name="keywords" content="fandom quiz, personality quiz, character quiz, Harry Potter quiz, Marvel quiz, Star Wars quiz, Lord of the Rings quiz">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Fandom Fate">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Fandom Fate">
+  <meta property="og:title" content="Fandom Fate — Find your character match">
+  <meta property="og:description" content="Take a just-for-fun fandom personality quiz and find your closest fictional character match.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Fandom Fate — Find your character match">
+  <meta name="twitter:description" content="Take a just-for-fun fandom personality quiz and find your closest fictional character match.">
+  <title>Fandom Fate — Fandom personality quizzes</title>
+  <link rel="icon" href="assets/brand-mark.svg" type="image/svg+xml">
+  <style>
+/* Fandom Fate: a playful print-zine look, built from flat ink, paper and marker colors. */
+:root{color-scheme:light;--paper:#f5f0e4;--paper-hi:#fffdf7;--paper-shade:#e7ddc8;--ink:#292638;--muted:#625f70;--faint:#898594;--red:#c95541;--pink:#c7828a;--blue:#536889;--yellow:#ddb653;--mint:#d9e1d4;--line:rgba(41,38,56,.23);--serif:Georgia,'Times New Roman',serif;--sans:'Trebuchet MS',Arial,sans-serif;--mono:'Courier New',monospace;--shadow:5px 5px 0 var(--ink)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;min-width:320px;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.55;position:relative;overflow-x:hidden}body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;opacity:.12;background-image:radial-gradient(var(--ink) .55px,transparent .7px);background-size:7px 7px}.site-shell{max-width:1120px;margin:0 auto;padding:0 34px}.skip-link{position:absolute;left:16px;top:-60px;z-index:20;padding:10px 14px;background:var(--ink);color:white}.skip-link:focus{top:12px}.site-header{height:84px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid var(--ink);position:relative;z-index:5}.brand{display:inline-flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none;font-family:var(--sans);font-size:18px;font-weight:900;letter-spacing:.045em;text-transform:uppercase}.brand img{object-fit:contain;border:2px solid var(--ink);box-shadow:2px 2px 0 var(--ink)}.brand-light{font-weight:500;color:var(--red)}.brand i{font-style:normal;color:var(--blue)}.main-nav{display:flex;align-items:center;gap:30px;margin-left:auto;margin-right:28px}.main-nav a{color:var(--ink);font-family:var(--mono);font-size:11px;font-weight:700;text-decoration:none;text-transform:uppercase;letter-spacing:.045em}.main-nav a:hover,.main-nav a:focus-visible{color:var(--red);text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px}.button{min-height:48px;padding:0 18px;display:inline-flex;align-items:center;justify-content:center;gap:9px;border:2px solid var(--ink);border-radius:4px;background:var(--paper-hi);box-shadow:3px 3px 0 var(--ink);color:var(--ink);font-family:var(--sans);font-size:12px;font-weight:800;text-decoration:none;cursor:pointer;transition:transform .12s,box-shadow .12s,background .12s}.button:hover{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}.button:focus-visible,.text-button:focus-visible,.answer-button:focus-visible,.fandom-link:focus-visible{outline:3px solid var(--blue);outline-offset:3px}.button-small{min-height:38px;padding:0 13px;font-size:10px}.button-primary{background:var(--red);color:#fff}.button-primary:hover{background:#ad4333}.button-outline{background:transparent}.button-outline:hover{background:var(--yellow)}.button-quiet{border-color:transparent;background:transparent;box-shadow:none;padding-left:10px;padding-right:10px}.button-quiet:hover{box-shadow:none;background:rgba(53,84,174,.1);transform:rotate(-1deg)}.hero{min-height:555px;display:grid;grid-template-columns:1.03fr .97fr;align-items:center;gap:22px;padding:65px 0 57px;position:relative}.hero-copy{max-width:540px;position:relative;z-index:2}.eyebrow{margin:0 0 16px;color:var(--red);font-family:var(--mono);font-size:10px;font-weight:700;letter-spacing:.075em;text-transform:uppercase}.eyebrow-dot,.live-dot{display:inline-block;width:7px;height:7px;margin-right:7px;border:1px solid var(--ink);background:var(--yellow);vertical-align:1px;transform:rotate(45deg)}.hero h1{max-width:590px;margin:0;font-family:var(--serif);font-size:clamp(48px,6.2vw,76px);font-weight:700;letter-spacing:-3.2px;line-height:.99}.gradient-text{position:relative;z-index:0;color:var(--blue);background:none;-webkit-text-fill-color:currentColor}.hero h1 .gradient-text:after{content:"";position:absolute;left:0;right:-4px;bottom:3px;height:11px;background:var(--yellow);z-index:-1;transform:rotate(-1.3deg)}.hero-lede{max-width:430px;margin:22px 0 15px;color:var(--muted);font-family:var(--serif);font-size:18px;line-height:1.5}.hero-tagline{margin:0 0 25px;color:var(--ink);font-family:var(--mono);font-size:10px;font-weight:700;letter-spacing:.02em}.hero-tagline strong{color:var(--red);text-decoration:underline;text-decoration-style:wavy;text-underline-offset:3px}.hero-actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.hero-proof{margin-top:31px;display:flex;align-items:center;gap:14px}.proof-stamp{width:55px;height:49px;display:grid;place-content:center;border:2px solid var(--red);color:var(--red);font-family:var(--mono);font-size:8px;font-weight:700;line-height:1.15;text-align:center;transform:rotate(-7deg)}.hero-proof p{max-width:230px;margin:0;color:var(--muted);font-size:11px}.hero-proof strong{color:var(--ink);font-weight:900}.hero-art{min-height:435px;position:relative;display:grid;place-items:center;isolation:isolate}.hero-art:before{content:"";position:absolute;width:300px;height:300px;border:2px solid var(--ink);border-radius:50%;background:var(--yellow);z-index:-1;transform:rotate(7deg)}.zine-cover{position:relative;width:min(330px,78%);min-height:380px;padding:18px 20px 16px;border:2px solid var(--ink);background:var(--paper-hi);box-shadow:9px 9px 0 var(--ink);transform:rotate(2.2deg)}.cover-top{display:flex;justify-content:space-between;padding-bottom:7px;border-bottom:1px dashed var(--ink);font-family:var(--mono);font-size:8px;font-weight:700;letter-spacing:.08em}.cover-art{display:block;width:100%;height:190px;margin:8px auto 0}.cover-headline{margin:-2px 0 0;color:var(--ink);font-family:var(--serif);font-size:35px;font-weight:700;letter-spacing:-1.4px;line-height:.92;text-align:center;text-transform:uppercase}.cover-foot{display:flex;align-items:center;justify-content:space-between;margin-top:13px;padding-top:8px;border-top:2px solid var(--ink);font-family:var(--mono);font-size:8px;font-weight:700;text-transform:uppercase}.cover-foot b{color:var(--red);font-size:10px}.cover-sticker{position:absolute;right:-36px;top:94px;width:81px;height:81px;display:grid;place-content:center;border:2px solid var(--ink);border-radius:50%;background:var(--pink);box-shadow:3px 3px 0 var(--ink);font-family:var(--mono);font-size:9px;font-weight:900;line-height:1.18;text-align:center;transform:rotate(10deg)}.hand-note{position:absolute;left:0;bottom:38px;color:var(--blue);font-family:var(--serif);font-size:17px;font-style:italic;line-height:1.1;transform:rotate(-9deg)}.hand-note:after{content:"↗";display:block;margin-left:45px;font-family:var(--sans);font-size:30px;font-style:normal}.hero-sticker{position:absolute;top:23px;left:9%;padding:6px 9px;border:1px solid var(--ink);background:var(--mint);font-family:var(--mono);font-size:8px;font-weight:700;transform:rotate(-6deg)}.section-block{padding:58px 0}.fandom-section{border-top:2px solid var(--ink)}.section-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:30px;margin-bottom:25px}.section-heading .eyebrow{margin-bottom:8px}.section-heading h2,.closing-banner h2{margin:0;font-family:var(--serif);font-size:clamp(31px,4vw,44px);font-weight:700;letter-spacing:-1.3px;line-height:1.08}.section-heading .gradient-text,.closing-banner .gradient-text{color:var(--red)}.section-heading .gradient-text:after,.closing-banner .gradient-text:after{display:none}.section-aside{margin:0 2px 3px 0;color:var(--ink);font-family:var(--mono);font-size:10px;font-weight:700;text-align:right;line-height:1.7}.section-aside span{color:var(--muted);font-weight:400}.fandom-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}.fandom-card{--accent:var(--red);position:relative;min-height:177px;overflow:hidden;padding:17px 18px 14px;border:2px solid var(--ink);border-radius:3px;background:var(--paper-hi);box-shadow:4px 4px 0 var(--ink);color:var(--ink);transition:transform .12s,box-shadow .12s}.fandom-card:nth-child(6n+1){background:#f1e2d6}.fandom-card:nth-child(6n+2){background:#e4e7ec}.fandom-card:nth-child(6n+3){background:#f1e7cd}.fandom-card:nth-child(6n+4){background:#e4e9e1}.fandom-card:nth-child(6n+5){background:#eee1e0}.fandom-card:nth-child(6n){background:#e8e4eb}.fandom-card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:7px;background:var(--accent);border-right:1px solid var(--ink)}.fandom-card:not(.is-coming):hover{transform:translate(2px,2px) rotate(-.5deg);box-shadow:2px 2px 0 var(--ink)}.fandom-card-head{display:flex;align-items:center;justify-content:space-between;gap:10px;position:relative;z-index:1}.fandom-glyph{min-width:42px;height:31px;padding:0 5px;display:grid;place-items:center;border:1.5px solid var(--ink);background:var(--paper-hi);color:var(--ink);font-family:var(--mono);font-size:9px;font-weight:900;letter-spacing:.02em;transform:rotate(-3deg)}.fandom-status{padding:4px 7px;border:1px solid var(--ink);background:var(--mint);color:var(--ink);font-family:var(--mono);font-size:8px;font-weight:700;text-transform:uppercase}.is-coming .fandom-status{background:var(--paper-hi)}.fandom-card h3{position:relative;z-index:1;margin:13px 0 4px;font-family:var(--serif);font-size:21px;line-height:1.08}.fandom-card p{position:relative;z-index:1;margin:0;max-width:270px;color:#545161;font-size:11px;line-height:1.48}.fandom-card-bottom{position:relative;z-index:1;margin-top:12px;display:flex;align-items:center;justify-content:space-between}.fandom-meta{color:#625f70;font-family:var(--mono);font-size:8px;text-transform:uppercase}.fandom-link{padding:6px 8px;border:1.5px solid var(--ink);border-radius:2px;background:var(--paper-hi);box-shadow:2px 2px 0 var(--ink);color:var(--ink);font-family:var(--mono);font-size:8px;font-weight:700;text-transform:uppercase;cursor:pointer}.fandom-link:hover{background:var(--yellow);transform:translate(1px,1px);box-shadow:1px 1px 0 var(--ink)}.fandom-link:disabled{background:transparent;color:#686572;box-shadow:none;cursor:default}.how-section{padding-top:47px;padding-bottom:74px}.compact-heading{margin-bottom:23px}.steps-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.step-card{position:relative;min-height:150px;padding:19px 20px 17px;border:2px solid var(--ink);border-radius:3px;background:var(--paper-hi);box-shadow:3px 3px 0 var(--ink)}.step-number{position:absolute;right:13px;top:10px;color:var(--red);font-family:var(--mono);font-size:10px;font-weight:700}.step-icon{width:34px;height:34px;display:grid;place-items:center;margin-bottom:13px;border:1px solid var(--ink);background:var(--yellow);color:var(--ink);font-family:var(--serif);font-size:19px;transform:rotate(-4deg)}.step-card:nth-child(2) .step-icon{background:var(--pink);transform:rotate(3deg)}.step-card:nth-child(3) .step-icon{background:var(--mint);transform:rotate(-2deg)}.step-card h3{margin:0 0 5px;font-family:var(--serif);font-size:18px}.step-card p{max-width:260px;margin:0;color:var(--muted);font-size:10px;line-height:1.55}.closing-banner{display:flex;align-items:center;justify-content:space-between;gap:24px;margin:0 0 67px;padding:25px 27px;border:2px solid var(--ink);border-radius:3px;background:var(--yellow);box-shadow:5px 5px 0 var(--ink)}.closing-banner .eyebrow{margin-bottom:7px;color:var(--blue)}.closing-banner h2{font-size:clamp(23px,3vw,34px)}.closing-banner .button-primary{background:var(--blue)}.site-footer{position:relative;display:grid;grid-template-columns:auto 1fr;align-items:center;gap:8px 22px;padding:20px 0 30px;border-top:2px solid var(--ink)}.footer-brand{font-size:15px}.site-footer>p{margin:0;color:var(--muted);font-size:10px}.site-footer .disclaimer{grid-column:2;max-width:690px;color:#777382;font-size:9px}
+/* Quiz and result screens keep the same paper, ink and printed-card language. */
+.is-hidden{display:none!important}.quiz-view,.result-view{min-height:630px;padding:23px 0 66px}.quiz-topline,.result-topline{display:flex;align-items:center;justify-content:space-between;gap:14px}.text-button{display:inline-flex;align-items:center;gap:7px;padding:8px 0;border:0;background:none;color:var(--ink);font-family:var(--mono);font-size:10px;font-weight:700;text-transform:uppercase;cursor:pointer}.text-button:hover{color:var(--red);text-decoration:underline;text-underline-offset:3px}.quiz-fandom-label,.result-label{color:var(--ink);font-family:var(--mono);font-size:9px;font-weight:700;letter-spacing:.04em;text-transform:uppercase}.quiz-fandom-label .live-dot{width:7px;height:7px;background:var(--mint)}.quiz-progress-wrap{max-width:680px;margin:38px auto 0}.progress-copy{display:flex;justify-content:space-between;margin-bottom:8px;color:var(--ink);font-family:var(--mono);font-size:9px;font-weight:700}.progress-track{height:11px;overflow:hidden;border:1.5px solid var(--ink);background:var(--paper-hi)}.progress-track span{display:block;width:12%;height:100%;background:var(--red);border-right:2px solid var(--ink);transition:width .25s steps(8,end)}.question-card{position:relative;max-width:680px;margin:20px auto 0;padding:34px 42px 27px;border:2px solid var(--ink);border-radius:3px;background:var(--paper-hi);box-shadow:7px 7px 0 var(--ink);text-align:center}.question-mark{width:38px;height:38px;display:grid;place-items:center;margin:0 auto 15px;border:1.5px solid var(--ink);background:var(--pink);color:var(--ink);font-family:var(--serif);font-size:20px;transform:rotate(-4deg)}.question-card .eyebrow{margin-bottom:8px;font-size:9px}.question-card h1{max-width:550px;margin:0 auto;font-family:var(--serif);font-size:clamp(25px,4vw,36px);font-weight:700;letter-spacing:-.7px;line-height:1.2}.question-hint{margin:8px 0 22px;color:var(--muted);font-family:var(--serif);font-size:13px;font-style:italic}.answer-list{display:grid;grid-template-columns:1fr 1fr;gap:10px;text-align:left}.answer-button{min-height:55px;padding:10px 12px;display:flex;align-items:center;gap:10px;border:1.5px solid var(--ink);border-radius:2px;background:var(--paper-hi);box-shadow:2px 2px 0 var(--ink);color:var(--ink);font-family:var(--sans);font-size:10px;line-height:1.45;text-align:left;cursor:pointer;transition:transform .12s,background .12s,box-shadow .12s}.answer-button:hover{transform:translate(2px,2px);box-shadow:none;background:#f6ebcf}.answer-button.selected{background:#efddd5;box-shadow:inset 0 0 0 2px var(--red)}.answer-marker{width:21px;height:21px;flex:0 0 21px;display:grid;place-items:center;border:1px solid var(--ink);border-radius:50%;background:var(--paper);color:var(--ink);font-family:var(--mono);font-size:8px}.answer-button.selected .answer-marker{background:var(--red);color:#fff}.quiz-footnote{margin:17px 0 0;color:var(--muted);font-family:var(--serif);font-size:11px;font-style:italic}.quiz-footnote span{padding-left:4px;color:var(--red)}.result-view{max-width:820px;margin:auto}.result-label{padding:6px 8px;border:1px solid var(--ink);background:var(--yellow);font-size:8px}.result-label span{padding-left:3px;color:var(--red)}.result-card{position:relative;isolation:isolate;overflow:hidden;max-width:620px;margin:28px auto 22px;padding:48px 38px 30px;border:2px solid var(--ink);border-radius:3px;background:var(--paper-hi);box-shadow:8px 8px 0 var(--ink);text-align:center}.result-card:before{content:"RESULT FILE / 01";position:absolute;top:12px;left:14px;padding:4px 6px;border:1px solid var(--ink);color:var(--blue);font-family:var(--mono);font-size:8px;font-weight:700;transform:rotate(-3deg)}.result-badge{display:inline-flex;align-items:center;gap:6px;padding:5px 8px;border:1px solid var(--ink);background:var(--pink);color:var(--ink);font-family:var(--mono);font-size:8px;font-weight:700;letter-spacing:.04em}.result-badge span{color:var(--blue)}.result-intro{margin:19px 0 5px;color:var(--muted);font-family:var(--serif);font-size:15px;font-style:italic}.result-card h1{margin:0;color:var(--ink);font-family:var(--serif);font-size:clamp(34px,6vw,51px);font-weight:700;letter-spacing:-1.4px;line-height:1.12}.result-card h1 span{color:var(--red)}.result-archetype{margin:7px 0 0;color:var(--blue);font-family:var(--mono);font-size:10px;font-weight:700;text-transform:uppercase}.result-divider{width:90px;margin:20px auto 15px;border-top:2px dashed var(--ink);position:relative}.result-divider span{position:absolute;left:50%;top:-10px;padding:0 7px;transform:translateX(-50%);background:var(--paper-hi);color:var(--red);font-size:14px}.result-description{max-width:420px;margin:0 auto;color:#4f4c5d;font-family:var(--serif);font-size:14px;line-height:1.7}.trait-list{display:flex;flex-wrap:wrap;justify-content:center;gap:7px;margin-top:19px}.trait-pill{padding:5px 8px;border:1px solid var(--ink);background:#e5e8ee;color:var(--ink);font-family:var(--mono);font-size:8px;font-weight:700;text-transform:uppercase}.trait-pill:nth-child(2n){background:#f1e5c5}.unofficial-note{margin:20px 0 0;color:#777382;font-family:var(--mono);font-size:8px}.result-actions{display:flex;justify-content:center;align-items:center;gap:9px;flex-wrap:wrap}.result-actions .button{min-height:43px;font-size:10px}.result-actions .button-quiet{font-size:9px}.share-status{min-height:22px;margin:8px 0 0;color:#315b40;text-align:center;font-family:var(--mono);font-size:10px}
+@media(max-width:900px){.site-shell{padding:0 24px}.hero{min-height:510px;grid-template-columns:1fr .9fr}.hero h1{font-size:clamp(46px,6.5vw,68px)}.hero-art{transform:scale(.9);margin-left:-15px}.main-nav{gap:17px;margin-right:17px}.fandom-grid{gap:12px}.fandom-card{padding:15px 14px 12px}.fandom-card h3{font-size:19px}}
+@media(max-width:700px){.site-shell{padding:0 19px}.site-header{height:70px}.brand{font-size:16px}.brand img{width:33px;height:33px}.main-nav{display:none}.site-header>.button{margin-left:auto}.hero{min-height:0;padding:53px 0 42px;grid-template-columns:1fr;gap:0}.hero h1{font-size:clamp(46px,11vw,68px)}.hero-lede{font-size:16px}.hero-art{min-height:380px;margin:8px 0 0;transform:none}.hero-art:before{width:250px;height:250px}.zine-cover{width:min(300px,76%);min-height:345px;padding:15px 17px}.cover-art{height:164px}.cover-headline{font-size:31px}.cover-sticker{right:-28px;width:69px;height:69px;font-size:8px}.hand-note{left:1%;bottom:24px;font-size:14px}.hero-sticker{left:2%;top:14px}.section-block{padding:42px 0}.section-heading{align-items:flex-start}.section-heading h2{font-size:33px}.section-aside{font-size:9px}.fandom-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.fandom-card{min-height:174px;padding:14px 12px 11px}.fandom-card h3{font-size:18px}.fandom-card p{font-size:10px}.steps-grid{grid-template-columns:1fr;gap:10px}.step-card{min-height:0;padding:16px 17px 15px 66px}.step-icon{position:absolute;left:16px;top:20px;margin:0}.step-number{top:15px;right:15px}.step-card h3{margin:0 0 4px}.closing-banner{margin:0 0 51px;padding:20px;align-items:flex-start;flex-direction:column}.closing-banner h2{font-size:28px}.site-footer{grid-template-columns:1fr;gap:8px}.site-footer .disclaimer{grid-column:1}.footer-star{top:22px}.quiz-view,.result-view{min-height:600px;padding:16px 0 50px}.quiz-progress-wrap{margin-top:29px}.question-card{padding:30px 20px 23px;margin-top:17px}.answer-list{grid-template-columns:1fr}.answer-button{min-height:51px}.result-card{padding:43px 22px 27px}.result-actions{flex-direction:column;align-items:stretch}.result-actions .button{width:100%}.result-label{font-size:7px}}
+@media(max-width:400px){.site-shell{padding:0 14px}.hero h1{font-size:45px}.hero-actions{align-items:stretch;flex-direction:column}.hero-actions .button{width:100%}.section-heading{flex-direction:column;gap:10px}.section-aside{text-align:left}.fandom-grid{grid-template-columns:1fr}.fandom-card{min-height:156px}.quiz-fandom-label{font-size:8px}.text-button{font-size:9px}.result-topline{align-items:flex-start}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+  
+/* Typography and spacing refinement */
+/* Typography and spacing pass: editorial rhythm, readable measures, and a little intentional irregularity. */
+:root{--serif:"Iowan Old Style","Palatino Linotype","Book Antiqua",Georgia,serif;--sans:"Avenir Next",Avenir,"Trebuchet MS",Arial,sans-serif;--mono:"Courier New",monospace}
+body{letter-spacing:.005em}
+.site-shell{max-width:1088px}
+.site-header{height:91px}
+.main-nav{gap:32px}
+.hero{min-height:580px;grid-template-columns:1.02fr .98fr;gap:38px;padding:74px 0 68px}
+.hero-copy{max-width:510px}
+.hero h1{max-width:560px;font-size:clamp(52px,6.4vw,78px);letter-spacing:-3.7px;line-height:.97;text-wrap:balance}
+.hero-lede{max-width:405px;margin:24px 0 16px;font-size:18px;line-height:1.57}
+.hero-tagline{margin:0 0 27px;font-size:10px;letter-spacing:.055em}
+.hero-proof{margin-top:34px}
+.cover-top,.cover-foot{letter-spacing:.11em}
+.cover-art{margin:11px auto 0}
+.cover-headline{letter-spacing:-1.8px;line-height:.9}
+.section-block{padding:72px 0}
+.section-heading{gap:36px;margin-bottom:31px}
+.section-heading h2,.closing-banner h2{letter-spacing:-1.7px;line-height:1.03;text-wrap:balance}
+.section-aside{max-width:190px;padding-left:13px;border-left:1px dashed var(--ink);transform:rotate(-1deg)}
+.fandom-grid{gap:18px}
+.fandom-card{min-height:199px;padding:19px 20px 16px;display:flex;flex-direction:column}
+.fandom-card h3{margin:17px 0 6px;font-size:23px;letter-spacing:-.45px;line-height:1.02}
+.fandom-card p{max-width:252px;font-size:12px;line-height:1.55}
+.fandom-card-bottom{margin-top:auto;padding-top:16px}
+.fandom-meta{font-size:8px;letter-spacing:.025em}
+.fandom-link{padding:7px 9px;font-size:9px;letter-spacing:.015em}
+.how-section{padding-top:57px;padding-bottom:87px}
+.compact-heading{margin-bottom:29px}
+.steps-grid{gap:16px}
+.step-card{min-height:166px;padding:22px 22px 19px}
+.step-card h3{font-size:19px;letter-spacing:-.2px}
+.step-card p{max-width:270px;font-size:11px;line-height:1.65}
+.closing-banner{margin-bottom:73px;padding:28px 31px}
+.site-footer{padding:24px 0 34px;gap:10px 25px}
+.quiz-view,.result-view{padding-top:27px;padding-bottom:75px}
+.quiz-progress-wrap{margin-top:43px}
+.progress-copy{margin-bottom:10px;font-size:9px;letter-spacing:.09em}
+.question-card{margin-top:24px;padding:42px 48px 31px}
+.question-card .eyebrow{margin-bottom:10px;letter-spacing:.1em}
+.question-card h1{font-size:clamp(28px,4vw,38px);letter-spacing:-.8px;line-height:1.17;text-wrap:balance}
+.question-hint{margin:11px 0 26px;font-size:14px}
+.answer-list{gap:12px}
+.answer-button{min-height:62px;padding:13px 14px;font-size:11px;line-height:1.5}
+.answer-marker{width:23px;height:23px;flex-basis:23px}
+.quiz-footnote{margin-top:20px;font-size:12px}
+.result-card{max-width:650px;margin-top:32px;padding:53px 46px 35px}
+.result-card h1{font-size:clamp(38px,6vw,54px);letter-spacing:-1.7px}
+.result-description{max-width:440px;font-size:15px;line-height:1.75}
+.trait-list{gap:9px;margin-top:22px}
+.trait-pill{padding:6px 9px;font-size:9px;letter-spacing:.025em}
+.result-actions{gap:11px}
+@media(max-width:900px){.site-shell{max-width:100%;padding:0 28px}.hero{gap:18px}.hero-art{transform:scale(.94);margin-left:-5px}.fandom-card{min-height:205px;padding:17px 16px 14px}}
+@media(max-width:700px){.site-shell{padding:0 19px}.site-header{height:73px}.main-nav{gap:16px}.hero{min-height:0;padding:48px 0 42px;gap:0}.hero h1{font-size:clamp(46px,10.7vw,65px);letter-spacing:-2.8px}.hero-lede{max-width:390px;margin:19px 0 14px;font-size:16px;line-height:1.55}.hero-tagline{margin-bottom:23px;font-size:9px}.hero-proof{margin-top:27px}.hero-art{margin-top:7px}.section-block{padding:49px 0}.section-heading{gap:17px;margin-bottom:24px}.section-heading h2{font-size:clamp(29px,7vw,36px)}.section-aside{max-width:150px;padding-left:9px;font-size:8px}.fandom-grid{gap:13px}.fandom-card{min-height:190px;padding:15px 13px 12px}.fandom-card h3{margin-top:15px;font-size:20px}.fandom-card p{font-size:10px;line-height:1.5}.fandom-card-bottom{padding-top:13px}.how-section{padding-top:42px;padding-bottom:60px}.compact-heading{margin-bottom:22px}.steps-grid{gap:12px}.step-card{min-height:0;padding:17px 18px 16px 67px}.step-card p{font-size:10px}.closing-banner{margin-bottom:54px;padding:22px}.closing-banner h2{font-size:28px}.site-footer{padding:20px 0 28px;gap:8px}.quiz-view,.result-view{padding-top:17px;padding-bottom:52px}.quiz-progress-wrap{margin-top:31px}.question-card{margin-top:18px;padding:31px 22px 25px}.question-card h1{font-size:clamp(26px,7vw,34px)}.question-hint{margin:9px 0 20px;font-size:12px}.answer-list{gap:9px}.answer-button{min-height:54px;padding:11px 12px;font-size:10px}.quiz-footnote{margin-top:17px;font-size:10px}.result-card{margin-top:25px;padding:46px 24px 28px}.result-card h1{font-size:clamp(34px,9vw,47px)}.result-description{font-size:13px;line-height:1.65}.result-actions{gap:8px}}
+@media(max-width:400px){.site-shell{padding:0 14px}.site-header{height:68px}.brand{font-size:14px}.hero h1{font-size:44px;letter-spacing:-2.3px}.hero-art{min-height:350px}.section-heading{flex-direction:column;align-items:flex-start}.section-aside{max-width:none;margin-left:2px;text-align:left}.fandom-grid{grid-template-columns:1fr}.fandom-card{min-height:165px;padding:15px 14px 12px}.fandom-card h3{font-size:22px}.result-topline{gap:8px}}
+  
+/* Fandom Fate marks: question stamp, page tab and issue number. */
+.question-stamp{width:19px;height:19px;display:inline-grid;place-items:center;border:1.5px solid var(--ink);background:var(--yellow);color:var(--ink);font-family:var(--mono);font-size:12px;font-weight:900;line-height:1;transform:rotate(-7deg)}
+.random-icon{width:19px;height:19px;display:inline-grid;place-items:center;border:1px solid var(--ink);background:var(--paper-hi);color:var(--red);font-family:var(--mono);font-size:12px;font-weight:900;line-height:1;transform:rotate(5deg)}
+.footer-index{position:absolute;right:0;top:22px;padding:4px 6px;border:1px dashed var(--ink);color:var(--red);font-family:var(--mono);font-size:8px;font-weight:700;letter-spacing:.05em;transform:rotate(-4deg)}
+.result-badge span{font-family:var(--mono);font-size:8px;letter-spacing:.06em}
+.result-divider span{font-family:var(--mono);font-size:10px;font-weight:700;letter-spacing:.09em}
+.result-label{letter-spacing:.02em}
+.question-mark{font-family:var(--mono);font-size:19px;font-weight:900}
+@media(max-width:700px){.footer-index{top:22px}.result-label{max-width:47%;text-align:right;line-height:1.45}}
+
+/* Calm, readable layout pass: keep the zine details, lose the repeated ornaments. */
+body:before{opacity:.055}
+.site-header{height:78px;border-bottom-width:1px}
+.main-nav{gap:28px;margin-right:0}
+.hero{min-height:510px;grid-template-columns:1.02fr .98fr;gap:36px;padding:60px 0 48px}
+.hero h1{max-width:560px;font-size:clamp(48px,5vw,64px);letter-spacing:-2.9px;line-height:1.02;text-wrap:balance}
+.hero-lede{max-width:410px;margin:20px 0 25px;font-size:17px;line-height:1.62}
+.hero-actions{gap:0}
+.hero-art{min-height:400px}
+.hero-art:before{width:270px;height:270px;border-width:1px;background:var(--paper-shade)}
+.zine-cover{width:min(320px,78%);min-height:360px;padding:17px 19px 15px;box-shadow:6px 6px 0 var(--ink);transform:rotate(1deg)}
+.cover-art{height:176px;margin-top:8px}
+.cover-headline{font-size:33px}
+.cover-foot{margin-top:11px;padding-top:7px}
+.hero-sticker,.cover-sticker,.hand-note{display:none}
+.section-block{padding:54px 0}
+.fandom-section{border-top-width:1px}
+.section-heading{gap:26px;margin-bottom:23px}
+.fandom-grid{gap:14px}
+.fandom-card,.fandom-card:nth-child(n){min-height:184px;padding:16px 17px 13px;border-width:1.5px;background:var(--paper-hi);box-shadow:2px 2px 0 rgba(41,38,56,.72)}
+.fandom-card:not(.is-coming){background:#f1e2d6}
+.fandom-card.is-coming{--accent:#c9c3b8;background:#fbf9f3}
+.fandom-card:before{width:4px}
+.fandom-card:not(.is-coming):hover{transform:translate(1px,1px);box-shadow:1px 1px 0 rgba(41,38,56,.72)}
+.fandom-card h3{margin:14px 0 5px;font-size:21px;letter-spacing:-.25px}
+.fandom-card p{font-size:11px;line-height:1.55}
+.fandom-card-bottom{margin-top:auto;padding-top:13px}
+.fandom-meta{font-size:8px;letter-spacing:.03em}
+.fandom-link{box-shadow:1px 1px 0 var(--ink)}
+.fandom-link:hover{box-shadow:none}
+.how-section{padding-top:45px;padding-bottom:63px;border-top:1px solid var(--line)}
+.compact-heading{margin-bottom:19px}
+.steps-grid{gap:25px}
+.step-card{min-height:0;padding:18px 12px 8px 0;border:0;border-top:1px solid var(--line);border-radius:0;background:transparent;box-shadow:none}
+.step-number{position:static;display:block;margin-bottom:14px;color:var(--red);font-size:12px;letter-spacing:.08em}
+.step-icon{display:none}
+.step-card h3{margin:0 0 7px;font-size:20px}
+.step-card p{font-size:11px;line-height:1.65}
+.closing-banner{margin-bottom:57px;padding:22px 25px;border-width:1px;background:var(--paper-shade);box-shadow:2px 2px 0 rgba(41,38,56,.65)}
+.closing-banner .button-primary{background:var(--red)}
+.site-footer{padding:19px 0 28px;border-top-width:1px}
+.question-card{box-shadow:4px 4px 0 var(--ink)}
+.answer-button{box-shadow:1px 1px 0 var(--ink)}
+.answer-button:hover{box-shadow:none}
+.result-card{box-shadow:5px 5px 0 var(--ink)}
+@media(max-width:900px){.hero{gap:18px}.hero h1{font-size:clamp(46px,5.5vw,60px)}.hero-art:before{width:240px;height:240px}.zine-cover{width:min(310px,84%)}.fandom-card{min-height:190px}}
+@media(max-width:700px){.site-header{height:70px}.main-nav{gap:16px}.hero{min-height:0;padding:43px 0 33px;gap:0}.hero h1{font-size:clamp(42px,10vw,57px);letter-spacing:-2.3px;line-height:1.02}.hero-lede{margin:17px 0 20px;font-size:16px;line-height:1.55}.hero-art{min-height:345px;margin-top:3px}.hero-art:before{width:230px;height:230px}.zine-cover{width:min(295px,82%);min-height:330px;padding:14px 16px 13px}.cover-art{height:153px}.cover-headline{font-size:29px}.section-block{padding:43px 0}.section-heading{gap:14px;margin-bottom:19px}.fandom-grid{gap:11px}.fandom-card,.fandom-card:nth-child(n){min-height:170px;padding:14px 13px 11px}.fandom-card h3{margin-top:12px;font-size:19px}.fandom-card p{font-size:10px}.fandom-card-bottom{padding-top:11px}.how-section{padding-top:38px;padding-bottom:48px}.steps-grid{grid-template-columns:1fr;gap:16px}.step-card{padding:14px 0 5px}.step-number{margin-bottom:9px}.step-card h3{font-size:18px}.step-card p{max-width:390px}.closing-banner{margin-bottom:43px;padding:19px;gap:16px}.closing-banner h2{font-size:26px}.quiz-view,.result-view{padding-top:16px;padding-bottom:45px}.question-card{padding:28px 20px 22px}.answer-list{gap:8px}.answer-button{min-height:52px}.result-card{padding:44px 23px 27px}}
+@media(max-width:400px){.site-shell{padding:0 14px}.hero h1{font-size:43px;letter-spacing:-2px}.hero-art{min-height:320px}.hero-art:before{width:210px;height:210px}.zine-cover{width:min(275px,84%);min-height:310px}.cover-art{height:142px}.section-heading{align-items:flex-start}.section-aside{max-width:none}.fandom-grid{grid-template-columns:1fr}.fandom-card,.fandom-card:nth-child(n){min-height:158px}.closing-banner h2{font-size:24px}}
+  @media(max-width:700px){.hero{grid-template-columns:1fr}}
+/* Fandom quiz shelf: one calm choice screen between fandom and quiz. */
+.quiz-catalog-view{min-height:620px;padding:23px 0 62px}
+.quiz-catalog-intro{max-width:820px;margin:47px auto 27px}
+.quiz-catalog-intro .eyebrow{margin-bottom:11px}
+.quiz-catalog-intro h1{margin:0;font-family:var(--serif);font-size:clamp(38px,5vw,57px);font-weight:700;letter-spacing:-1.8px;line-height:1.04}
+.quiz-catalog-intro>p:last-child{max-width:560px;margin:13px 0 0;color:var(--muted);font-family:var(--serif);font-size:17px;line-height:1.55}
+.quiz-type-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;max-width:900px;margin:0 auto}
+.quiz-type-card{--accent:var(--red);position:relative;display:flex;flex-direction:column;min-height:246px;overflow:hidden;padding:20px 21px 17px;border:1.5px solid var(--ink);border-radius:3px;background:var(--paper-hi);box-shadow:3px 3px 0 rgba(41,38,56,.68)}
+.quiz-type-card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--accent)}
+.quiz-type-card.is-coming{--accent:#c9c3b8;background:#fbf9f3}
+.quiz-type-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.quiz-type-kind{color:var(--muted);font-family:var(--mono);font-size:9px;font-weight:700;letter-spacing:.07em;text-transform:uppercase}
+.quiz-type-status{padding:4px 7px;border:1px solid var(--ink);background:var(--mint);color:var(--ink);font-family:var(--mono);font-size:8px;font-weight:700;text-transform:uppercase;white-space:nowrap}
+.quiz-type-card.is-coming .quiz-type-status{background:var(--paper-shade)}
+.quiz-type-card h2{margin:28px 0 8px;font-family:var(--serif);font-size:25px;line-height:1.12;letter-spacing:-.45px}
+.quiz-type-card p{max-width:390px;margin:0;color:var(--muted);font-size:12px;line-height:1.6}
+.quiz-type-footer{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-top:auto;padding-top:18px}
+.quiz-type-meta{color:var(--faint);font-family:var(--mono);font-size:8px;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.quiz-type-link{min-height:39px;padding:0 13px;border:1.5px solid var(--ink);border-radius:2px;background:var(--red);box-shadow:2px 2px 0 var(--ink);color:#fff;font-family:var(--sans);font-size:10px;font-weight:800;text-transform:uppercase;cursor:pointer;transition:transform .12s,box-shadow .12s}
+.quiz-type-link:hover{transform:translate(1px,1px);box-shadow:1px 1px 0 var(--ink)}
+.quiz-type-link:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+.quiz-catalog-note{max-width:900px;margin:24px auto 0;color:var(--muted);font-family:var(--mono);font-size:9px;letter-spacing:.03em}
+.quiz-catalog-note span{color:var(--red);font-weight:700}
+@media(max-width:900px){.quiz-catalog-view{padding-bottom:48px}.quiz-catalog-intro{margin-top:39px}.quiz-type-card{min-height:230px}}
+@media(max-width:700px){.quiz-catalog-view{min-height:0;padding:16px 0 44px}.quiz-catalog-intro{margin:35px auto 21px}.quiz-catalog-intro h1{font-size:clamp(35px,9vw,46px)}.quiz-catalog-intro>p:last-child{font-size:15px}.quiz-type-grid{grid-template-columns:1fr;gap:12px}.quiz-type-card{min-height:205px;padding:18px 18px 15px}.quiz-type-card h2{margin-top:23px;font-size:23px}.quiz-type-footer{padding-top:15px}.quiz-catalog-note{margin-top:20px}}
+@media(max-width:400px){.quiz-catalog-intro{margin-top:30px}.quiz-type-card{min-height:195px;padding-right:15px;padding-left:15px}.quiz-type-kind{font-size:8px}}
+
+
+/* Fandom-specific visual systems: the catalog data now controls the whole page, not only one accent stripe. */
+body[data-fandom]{
+  --page-accent:var(--fandom-accent,var(--red));
+  --page-soft:var(--fandom-soft,var(--paper-hi));
+  --page-ink:var(--fandom-ink,var(--ink));
+  background:var(--paper);
+}
+body[data-fandom] .quiz-catalog-view,
+body[data-fandom] .quiz-view,
+body[data-fandom] .result-view{
+  position:relative;
+  isolation:isolate;
+}
+body[data-fandom] .quiz-catalog-view:before,
+body[data-fandom] .quiz-view:before,
+body[data-fandom] .result-view:before{
+  content:"";
+  position:absolute;
+  z-index:-1;
+  inset:0 -50vw;
+  pointer-events:none;
+  background-color:var(--page-soft);
+  opacity:.56;
+  border-top:2px solid var(--page-accent);
+  border-bottom:1px solid color-mix(in srgb,var(--page-ink) 22%,transparent);
+}
+body[data-fandom] .quiz-catalog-view:after,
+body[data-fandom] .quiz-view:after,
+body[data-fandom] .result-view:after{
+  content:attr(data-motif);
+  position:absolute;
+  z-index:-1;
+  right:-10px;
+  top:122px;
+  color:var(--page-accent);
+  opacity:.14;
+  font:700 clamp(34px,7vw,84px)/1 var(--mono);
+  letter-spacing:.08em;
+  transform:rotate(-90deg) translateX(-100%);
+  transform-origin:top right;
+  white-space:nowrap;
+  pointer-events:none;
+}
+body[data-fandom] .fandom-theme-banner{
+  border-color:var(--page-ink);
+  background:var(--page-soft);
+  box-shadow:8px 8px 0 var(--page-ink);
+  position:relative;
+  overflow:hidden;
+}
+body[data-fandom] .fandom-theme-banner:before{
+  content:"";
+  position:absolute;
+  inset:0 auto 0 0;
+  width:12px;
+  background:var(--page-accent);
+  border-right:2px solid var(--page-ink);
+}
+body[data-fandom] .fandom-theme-mark{
+  background:var(--page-accent);
+  border-color:var(--page-ink);
+  color:#fff;
+  box-shadow:3px 3px 0 var(--page-ink);
+  transform:rotate(-4deg);
+}
+body[data-fandom] .fandom-theme-kicker,
+body[data-fandom] .quiz-catalog-intro .eyebrow,
+body[data-fandom] .quiz-catalog-note span{color:var(--page-accent)}
+body[data-fandom] .fandom-theme-copy,
+body[data-fandom] .fandom-theme-motif{color:var(--page-ink)}
+body[data-fandom] .quiz-type-card{
+  border-color:var(--page-ink);
+  background:color-mix(in srgb,var(--page-soft) 64%,var(--paper-hi));
+  box-shadow:5px 5px 0 var(--page-ink);
+}
+body[data-fandom] .quiz-type-card:before{background:var(--page-accent)}
+body[data-fandom] .quiz-type-kind,
+body[data-fandom] .quiz-type-link{color:var(--page-accent)}
+body[data-fandom] .quiz-type-link{border-color:var(--page-ink);box-shadow:2px 2px 0 var(--page-ink)}
+body[data-fandom] .quiz-theme-strip{
+  border-color:var(--page-ink);
+  background:var(--page-soft);
+  color:var(--page-ink);
+  box-shadow:4px 4px 0 var(--page-ink);
+}
+body[data-fandom] .quiz-theme-mark{background:var(--page-accent);border-color:var(--page-ink);color:#fff}
+body[data-fandom] .progress-track{border-color:var(--page-ink);background:var(--page-soft)}
+body[data-fandom] .progress-track span{background:var(--page-accent);border-color:var(--page-ink)}
+body[data-fandom] .question-card{
+  border-color:var(--page-ink);
+  background:color-mix(in srgb,var(--page-soft) 42%,var(--paper-hi));
+  box-shadow:8px 8px 0 var(--page-ink);
+}
+body[data-fandom] .question-mark{background:var(--page-accent);color:#fff;border-color:var(--page-ink)}
+body[data-fandom] .question-card .eyebrow{color:var(--page-accent)}
+body[data-fandom] .answer-button{border-color:var(--page-ink);box-shadow:2px 2px 0 var(--page-ink)}
+body[data-fandom] .answer-button:hover{background:var(--page-soft)}
+body[data-fandom] .answer-button.selected{background:var(--page-soft);box-shadow:inset 0 0 0 2px var(--page-accent)}
+body[data-fandom] .answer-button.selected .answer-marker{background:var(--page-accent)}
+body[data-fandom] .result-card{
+  border-color:var(--page-ink);
+  background:color-mix(in srgb,var(--page-soft) 58%,var(--paper-hi));
+  box-shadow:9px 9px 0 var(--page-ink);
+}
+body[data-fandom] .result-card:before{color:var(--page-accent);border-color:var(--page-ink)}
+body[data-fandom] .result-badge{background:var(--page-accent);border-color:var(--page-ink);color:#fff}
+body[data-fandom] .result-card h1 span,
+body[data-fandom] .result-archetype{color:var(--page-accent)}
+body[data-fandom] .result-divider{border-color:var(--page-ink)}
+body[data-fandom] .trait-pill{border-color:var(--page-ink);background:var(--page-soft);color:var(--page-ink)}
+body[data-fandom] .result-actions .button-primary{background:var(--page-accent);border-color:var(--page-ink)}
+body[data-fandom] .result-actions .button-outline:hover{background:var(--page-soft)}
+body[data-fandom] .audio-toggle{border-color:var(--page-ink);color:var(--page-ink)}
+body[data-fandom] .live-dot{background:var(--page-accent)}
+/* Texture vocabulary from quiz-data.js: each universe gets a different print treatment. */
+body[data-fandom="wizarding-world"] .quiz-catalog-view:before,
+body[data-fandom="wizarding-world"] .quiz-view:before,
+body[data-fandom="wizarding-world"] .result-view:before{background-image:radial-gradient(var(--page-accent) 1px,transparent 1.5px);background-size:18px 18px}
+body[data-fandom="lord-of-the-rings"] .quiz-catalog-view:before,
+body[data-fandom="lord-of-the-rings"] .quiz-view:before,
+body[data-fandom="lord-of-the-rings"] .result-view:before{background-image:linear-gradient(120deg,transparent 47%,var(--page-accent) 48%,transparent 52%);background-size:34px 34px}
+body[data-fandom="lord-of-the-mysteries"] .quiz-catalog-view:before,
+body[data-fandom="lord-of-the-mysteries"] .quiz-view:before,
+body[data-fandom="lord-of-the-mysteries"] .result-view:before{background-image:radial-gradient(circle at 25% 25%,var(--page-accent) 1px,transparent 2px);background-size:46px 46px}
+body[data-fandom="marvel"] .quiz-catalog-view:before,
+body[data-fandom="marvel"] .quiz-view:before,
+body[data-fandom="marvel"] .result-view:before{background-image:linear-gradient(90deg,transparent 0 48%,var(--page-accent) 49% 51%,transparent 52%);background-size:72px 100%}
+body[data-fandom="disney"] .quiz-catalog-view:before,
+body[data-fandom="disney"] .quiz-view:before,
+body[data-fandom="disney"] .result-view:before{background-image:radial-gradient(var(--page-accent) 1.4px,transparent 2px);background-size:27px 27px}
+body[data-fandom="star-wars"] .quiz-catalog-view:before,
+body[data-fandom="star-wars"] .quiz-view:before,
+body[data-fandom="star-wars"] .result-view:before{background-image:radial-gradient(circle at 50% 50%,transparent 0 20px,var(--page-accent) 21px 22px,transparent 23px);background-size:86px 86px}
+body[data-fandom="stranger-things"] .quiz-catalog-view:before,
+body[data-fandom="stranger-things"] .quiz-view:before,
+body[data-fandom="stranger-things"] .result-view:before{background-image:repeating-linear-gradient(0deg,transparent 0 5px,var(--page-accent) 6px 7px);background-size:100% 24px}
+body[data-fandom="hunger-games"] .quiz-catalog-view:before,
+body[data-fandom="hunger-games"] .quiz-view:before,
+body[data-fandom="hunger-games"] .result-view:before{background-image:repeating-linear-gradient(135deg,transparent 0 12px,var(--page-accent) 13px 14px);background-size:28px 28px}
+@media(max-width:700px){
+  body[data-fandom] .quiz-catalog-view:after,body[data-fandom] .quiz-view:after,body[data-fandom] .result-view:after{display:none}
+  body[data-fandom] .fandom-theme-banner{box-shadow:5px 5px 0 var(--page-ink)}
+}
+
+
+/* Theme transitions: every universe gets its own motion signature. */
+@keyframes theme-banner-in{0%{opacity:0;transform:translateY(18px) rotate(-1.5deg)}65%{transform:translateY(-3px) rotate(.3deg)}100%{opacity:1;transform:none}}
+@keyframes theme-panel-in{0%{opacity:0;transform:translateX(28px) rotate(1deg)}100%{opacity:1;transform:none}}
+@keyframes theme-stars{0%{background-position:0 0;opacity:.18}100%{background-position:18px 18px;opacity:.56}}
+@keyframes theme-leaves{0%{background-position:0 0;opacity:.1}100%{background-position:34px 34px;opacity:.56}}
+@keyframes theme-constellation{0%{background-position:0 0;opacity:.08}50%{opacity:.5}100%{background-position:46px 46px;opacity:.56}}
+@keyframes theme-panels{0%{background-position:0 0;opacity:.08}100%{background-position:72px 0;opacity:.56}}
+@keyframes theme-confetti{0%{transform:scale(.98);opacity:.1}60%{transform:scale(1.01);opacity:.56}100%{transform:scale(1);opacity:.56}}
+@keyframes theme-orbit{0%{background-position:0 0;transform:rotate(-2deg);opacity:.08}100%{background-position:86px 86px;transform:rotate(0);opacity:.56}}
+@keyframes theme-static{0%{background-position:0 0;opacity:.08}50%{background-position:0 12px;opacity:.68}100%{background-position:0 24px;opacity:.56}}
+@keyframes theme-stitches{0%{background-position:0 0;opacity:.1}100%{background-position:28px 28px;opacity:.56}}
+body.theme-switching .fandom-theme-banner{animation:theme-banner-in .72s cubic-bezier(.2,.8,.2,1) both}
+body.theme-switching .quiz-type-card,
+body.theme-switching .quiz-theme-strip,
+body.theme-switching .question-card,
+body.theme-switching .result-card{animation:theme-panel-in .62s cubic-bezier(.2,.8,.2,1) .08s both}
+body.theme-switching[data-fandom="wizarding-world"] .quiz-catalog-view:before,
+body.theme-switching[data-fandom="wizarding-world"] .quiz-view:before,
+body.theme-switching[data-fandom="wizarding-world"] .result-view:before{animation:theme-stars .9s ease-out both}
+body.theme-switching[data-fandom="lord-of-the-rings"] .quiz-catalog-view:before,
+body.theme-switching[data-fandom="lord-of-the-rings"] .quiz-view:before,
+body.theme-switching[data-fandom="lord-of-the-rings"] .result-view:before{animation:theme-leaves .9s ease-out both}
+body.theme-switching[data-fandom="lord-of-the-mysteries"] .quiz-catalog-view:before,
+body.theme-switching[data-fandom="lord-of-the-mysteries"] .quiz-view:before,
+body.theme-switching[data-fandom="lord-of-the-mysteries"] .result-view:before{animation:theme-constellation 1s ease-out both}
+body.theme-switching[data-fandom="marvel"] .quiz-catalog-view:before,
+body.theme-switching[data-fandom="marvel"] .quiz-view:before,
+body.theme-switching[data-fandom="marvel"] .result-view:before{animation:theme-panels .6s steps(4,end) both}
+body.theme-switching[data-fandom="disney"] .quiz-catalog-view:before,
+body.theme-switching[data-fandom="disney"] .quiz-view:before,
+body.theme-switching[data-fandom="disney"] .result-view:before{animation:theme-confetti .8s cubic-bezier(.2,.8,.2,1) both}
+body.theme-switching[data-fandom="star-wars"] .quiz-catalog-view:before,
+body.theme-switching[data-fandom="star-wars"] .quiz-view:before,
+body.theme-switching[data-fandom="star-wars"] .result-view:before{animation:theme-orbit 1.1s ease-out both}
+body.theme-switching[data-fandom="stranger-things"] .quiz-catalog-view:before,
+body.theme-switching[data-fandom="stranger-things"] .quiz-view:before,
+body.theme-switching[data-fandom="stranger-things"] .result-view:before{animation:theme-static .55s steps(3,end) both}
+body.theme-switching[data-fandom="hunger-games"] .quiz-catalog-view:before,
+body.theme-switching[data-fandom="hunger-games"] .quiz-view:before,
+body.theme-switching[data-fandom="hunger-games"] .result-view:before{animation:theme-stitches .75s ease-out both}
+@media(prefers-reduced-motion:reduce){
+  body.theme-switching .fandom-theme-banner,body.theme-switching .quiz-type-card,body.theme-switching .quiz-theme-strip,body.theme-switching .question-card,body.theme-switching .result-card,body.theme-switching [class*="view"]:before{animation:none!important}
+}
+
+
+/* Secret fandom interactions stay quiet until discovered, then reveal themselves with a little print-zine flourish. */
+.fandom-theme-mark{cursor:help}
+.fandom-theme-mark:focus-visible{outline:3px solid var(--page-accent,var(--blue));outline-offset:4px}
+.easter-egg-status{position:absolute;left:18px;bottom:10px;max-width:58%;margin:0;color:var(--page-accent,var(--red));font:700 9px/1.2 var(--mono);letter-spacing:.04em;text-transform:uppercase;opacity:0;transform:translateY(6px);pointer-events:none;bottom:50px}
+.easter-egg-status.is-revealed{animation:easter-reveal .8s cubic-bezier(.2,.8,.2,1) both}
+@keyframes easter-reveal{0%{opacity:0;transform:translateY(6px) rotate(-2deg)}35%{opacity:1;transform:translateY(-2px) rotate(1deg)}100%{opacity:1;transform:none}}
+body.easter-egg-found .fandom-theme-mark{animation:egg-mark-pulse .7s ease-out both}
+@keyframes egg-mark-pulse{0%{transform:rotate(-4deg) scale(1)}45%{transform:rotate(5deg) scale(1.12)}100%{transform:rotate(-4deg) scale(1)}}
+@media(max-width:700px){.easter-egg-status{left:14px;bottom:8px;font-size:8px;max-width:62%}}
+@media(prefers-reduced-motion:reduce){.easter-egg-status.is-revealed,body.easter-egg-found .fandom-theme-mark{animation:none!important;opacity:1;transform:none}}
+
+
+/* Side quests turn the fandom shelf into a clearer, more playful interaction layer. */
+.theme-game-button{position:absolute;right:18px;bottom:13px;min-height:30px;padding:0 10px;border:1.5px solid var(--page-ink,var(--ink));background:var(--paper-hi);box-shadow:2px 2px 0 var(--page-ink,var(--ink));color:var(--page-ink,var(--ink));font:700 8px var(--mono);letter-spacing:.04em;text-transform:uppercase;cursor:pointer;transition:transform .12s,background .12s}
+.theme-game-button:hover,.theme-game-button:focus-visible{background:var(--page-accent,var(--yellow));color:#fff;transform:translate(1px,1px);outline:3px solid var(--page-accent,var(--blue));outline-offset:3px}
+.mini-game-dialog{width:min(560px,calc(100% - 32px));padding:0;border:2px solid var(--page-ink,var(--ink));background:transparent;color:var(--page-ink,var(--ink));box-shadow:9px 9px 0 var(--page-ink,var(--ink))}
+.mini-game-dialog::backdrop{background:rgba(41,38,56,.38);backdrop-filter:blur(2px)}
+.mini-game-shell{padding:24px 25px 22px;background:var(--page-soft,var(--paper-hi));border-left:12px solid var(--page-accent,var(--red))}
+.mini-game-topline{display:flex;align-items:center;justify-content:space-between;gap:18px}.mini-game-kicker{color:var(--page-accent,var(--red));font:700 9px var(--mono);letter-spacing:.08em}.mini-game-close{width:30px;height:30px;border:1.5px solid var(--page-ink,var(--ink));background:var(--paper-hi);color:var(--page-ink,var(--ink));font:24px/1 var(--serif);cursor:pointer}.mini-game-close:hover{background:var(--page-accent,var(--yellow));color:#fff}.mini-game-dialog h2{margin:19px 0 8px;font:700 clamp(27px,5vw,39px)/1.05 var(--serif);letter-spacing:-1px}.mini-game-prompt{margin:0 0 20px;max-width:440px;color:var(--muted);font:italic 15px/1.45 var(--serif)}.mini-game-options{display:grid;gap:9px}.mini-game-choice{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:48px;padding:11px 13px;border:1.5px solid var(--page-ink,var(--ink));background:var(--paper-hi);box-shadow:2px 2px 0 var(--page-ink,var(--ink));color:var(--page-ink,var(--ink));font:700 10px var(--sans);text-align:left;cursor:pointer}.mini-game-choice:hover,.mini-game-choice:focus-visible{background:var(--page-accent,var(--yellow));color:#fff;transform:translate(2px,2px);outline:3px solid var(--page-accent,var(--blue));outline-offset:2px}.mini-game-choice::after{content:'→';font:14px var(--serif)}.mini-game-result{min-height:28px;margin:18px 0 0;color:var(--page-accent,var(--red));font:700 11px/1.4 var(--mono);text-transform:uppercase}.mini-game-result.is-revealed{animation:easter-reveal .65s ease-out both}
+@media(max-width:700px){.theme-game-button{right:14px;bottom:10px}.easter-egg-status{bottom:47px;max-width:55%}.mini-game-shell{padding:20px 18px 18px;border-left-width:9px}}
+@media(prefers-reduced-motion:reduce){.mini-game-choice:hover,.mini-game-choice:focus-visible{transform:none}.mini-game-result.is-revealed{animation:none!important}}
+
+
+/* Core-flow polish: resume cues and deliberate back navigation. */
+.progress-copy{align-items:center;gap:16px}.previous-question{margin-left:auto;padding:3px 0;border:0;background:transparent;color:var(--page-accent,var(--ink));font:700 9px var(--mono);text-transform:uppercase;cursor:pointer}.previous-question:hover:not(:disabled),.previous-question:focus-visible{text-decoration:underline;text-underline-offset:4px;outline:3px solid var(--page-accent,var(--blue));outline-offset:3px}.previous-question:disabled{color:var(--faint);cursor:not-allowed}.resume-status{min-height:17px;margin:7px 0 0;color:var(--page-accent,var(--red));font:700 9px var(--mono);text-transform:uppercase;letter-spacing:.03em}.mini-game-badge{margin-left:auto;padding:4px 6px;border:1px solid var(--page-accent,var(--red));color:var(--page-accent,var(--red));font:700 8px var(--mono);letter-spacing:.04em;text-transform:uppercase}.mini-game-badge:empty{display:none}
+@media(max-width:700px){.progress-copy{gap:8px}.previous-question{font-size:8px}.resume-status{font-size:8px}}
+
+</style>
+  <script src="quiz-data.js?v=2" defer></script>
+  <script src="app.js?v=2" defer></script>
+  <link rel="canonical" href="https://fandomfate.site.je/">
+  <meta property="og:url" content="https://fandomfate.site.je/">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Fandom Fate home" data-home-link>
+        <img src="assets/brand-mark.svg" width="38" height="38" alt="">
+        <span>Fandom <span class="brand-light">Fate</span><i>.</i></span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#fandoms" data-home-link>Fandoms</a>
+        <a href="#how-it-works" data-home-link>How it works</a>
+        <a href="#about" data-home-link>About</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="view" id="homeView" aria-labelledby="hero-title">
+        <div class="hero" id="top">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-dot"></span> Fan-made fandom quizzes</p>
+            <h1 id="hero-title">You know the story.<br><span class="gradient-text">Meet your match.</span></h1>
+            <p class="hero-lede">Pick a fandom, find a quiz, and see which part of that world feels like you.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#fandoms" data-home-link>Explore fandoms <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+
+          <div class="hero-art" aria-label="Hand-drawn fan-zine cover with an open storybook and a quiz note" role="img">
+            <div class="zine-cover">
+              <div class="cover-top"><span>FANDOM FATE</span><span>VOL. 01</span></div>
+              <svg class="cover-art" viewBox="0 0 280 190" aria-hidden="true">
+                <ellipse cx="141" cy="169" rx="103" ry="10" fill="#d8ccb5"/>
+                <circle cx="204" cy="50" r="31" fill="#ddb653" stroke="#292638" stroke-width="3"/>
+                <path d="M29 73c37-19 72-12 109 14v69c-35-24-72-31-109-17Z" fill="#fffdf7" stroke="#292638" stroke-width="4" stroke-linejoin="round"/>
+                <path d="M138 87c36-26 73-33 112-14v66c-38-14-75-7-112 17Z" fill="#e4e7ec" stroke="#292638" stroke-width="4" stroke-linejoin="round"/>
+                <path d="M138 87v69M43 91c25-9 53-4 78 11M44 105c25-8 49-3 75 12M158 104c25-14 54-19 79-11M158 119c25-13 52-18 78-10" fill="none" stroke="#536889" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M67 39h22v28l-11-7-11 7V39Z" fill="#c95541" stroke="#292638" stroke-width="2" stroke-linejoin="round"/>
+                <path d="m222 89 28-12-9 28-6-10-13-6Z" fill="#c7828a" stroke="#292638" stroke-width="1.5" stroke-linejoin="round"/>
+                <path d="m222 89 13 6 6 10" fill="none" stroke="#292638" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M116 82c5-7 11-11 18-13" fill="none" stroke="#292638" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 5"/>
+              </svg>
+              <p class="cover-headline">WHO'S YOUR<br>OTHER SELF?</p>
+              <div class="cover-foot"><span>8 QUESTIONS</span><b>JUST FOR FUN</b></div>
+            </div>
+          </div>
+        </div>
+
+        <section class="fandom-section section-block" id="fandoms" aria-labelledby="fandom-heading">
+          <div class="section-heading">
+            <div><p class="eyebrow">The current reading list</p><h2 id="fandom-heading">What's your <span class="gradient-text">current obsession?</span></h2></div>
+            <p class="section-aside">Nine quizzes are ready.<br><span>Pick a fandom, then find your closest fit.</span></p>
+          </div>
+          <div class="fandom-grid" id="fandomGrid" aria-label="Available fandom quizzes"></div>
+          <noscript>
+            <p>Fandom Fate has personality quizzes for Harry Potter, Lord of the Mysteries, Marvel, Disney, Star Wars, Stranger Things, The Hunger Games, and The Lord of the Rings.</p>
+          </noscript>
+        </section>
+
+        <section class="how-section section-block" id="how-it-works" aria-labelledby="how-heading">
+          <div class="section-heading compact-heading">
+            <div><p class="eyebrow">No pressure / no personality jargon</p><h2 id="how-heading">Three steps. <span class="gradient-text">That's the whole thing.</span></h2></div>
+          </div>
+          <div class="steps-grid">
+            <article class="step-card"><span class="step-number">01</span><h3>Pick a world</h3><p>Start with an open quiz. If a fandom has several, choose the kind you want.</p></article>
+            <article class="step-card"><span class="step-number">02</span><h3>Answer honestly-ish</h3><p>A short set of choices. First instinct counts; there is no grading rubric.</p></article>
+            <article class="step-card"><span class="step-number">03</span><h3>See what fits</h3><p>Get a result card for the group chat. Debate is, naturally, encouraged.</p></article>
+          </div>
+        </section>
+
+        <section class="closing-banner" aria-label="Start exploring">
+          <div><p class="eyebrow">A question for the group chat</p><h2>All right, who are you <span class="gradient-text">in this story?</span></h2></div>
+          <a class="button button-primary" href="#fandoms" data-home-link>Find your fate <span aria-hidden="true">↗</span></a>
+        </section>
+      </section>
+
+      <section class="view quiz-catalog-view is-hidden" id="quizCatalogView" aria-labelledby="quizCatalogHeading" aria-hidden="true">
+        <div class="quiz-topline catalog-topline">
+          <button class="text-button" id="catalogBack" type="button"><span aria-hidden="true">←</span> All fandoms</button>
+          <span class="quiz-fandom-label"><span class="live-dot"></span> <span id="quizCatalogFandomName">Harry Potter</span> quiz shelf</span>
+        </div>
+        <div class="fandom-theme-banner" id="fandomThemeBanner">
+          <div class="fandom-theme-mark" id="fandomThemeMark" role="button" tabindex="0" aria-label="A mysterious fandom mark">HP</div>
+          <div class="fandom-theme-copy">
+            <p class="fandom-theme-kicker" id="fandomThemeKicker">THE WIZARDING WORLD</p>
+            <p class="fandom-theme-tagline" id="fandomThemeTagline">Choose your charm, your house, and the kind of magic you bring to a room.</p>
+          </div>
+          <span class="fandom-theme-motif" id="fandomThemeMotif">OWL POST / ISSUE 07</span>
+          <button class="theme-game-button" id="miniGameOpen" type="button"><span aria-hidden="true">✦</span> Open side quest</button>
+          <p class="easter-egg-status" id="easterEggStatus" role="status" aria-live="polite"></p>
+        </div>
+        <header class="quiz-catalog-intro">
+          <p class="eyebrow" id="quizCatalogEyebrow">Harry Potter / quiz shelf</p>
+          <h1 id="quizCatalogHeading" tabindex="-1">Choose your quiz.</h1>
+          <p id="quizCatalogDescription">One fandom, a few different ways to find your place in it.</p>
+        </header>
+        <div class="quiz-type-grid" id="quizTypeGrid" aria-label="Harry Potter quiz types"></div>
+        <p class="quiz-catalog-note"><span>THE SHORT VERSION /</span> Only quizzes marked ready can be started.</p>
+      </section>
+
+      <dialog class="mini-game-dialog" id="miniGameDialog" aria-labelledby="miniGameTitle">
+        <div class="mini-game-shell">
+          <div class="mini-game-topline"><span class="mini-game-kicker">SIDE QUEST / 01</span><span class="mini-game-badge" id="miniGameBadge"></span><button class="mini-game-close" id="miniGameClose" type="button" aria-label="Close side quest">×</button></div>
+          <h2 id="miniGameTitle">A tiny test of instinct</h2>
+          <p class="mini-game-prompt" id="miniGamePrompt"></p>
+          <div class="mini-game-options" id="miniGameOptions" role="group" aria-label="Side quest choices"></div>
+          <p class="mini-game-result" id="miniGameResult" role="status" aria-live="polite"></p>
+        </div>
+      </dialog>
+      <section class="view quiz-view is-hidden" id="quizView" aria-labelledby="questionText" aria-hidden="true">
+        <div class="quiz-topline">
+          <button class="text-button" id="backToFandoms" type="button"><span aria-hidden="true">←</span> All fandoms</button>
+          <span class="quiz-fandom-label"><span class="live-dot"></span> <span id="quizFandomName">Harry Potter</span> quiz</span>
+          <button class="audio-toggle" id="audioToggle" type="button" aria-pressed="false" aria-label="Turn fandom ambience on">♫ <span>Sound off</span></button>
+        </div>
+        <div class="quiz-theme-strip" id="quizThemeStrip">
+          <span class="quiz-theme-mark" id="quizThemeMark">HP</span>
+          <span id="quizThemeTagline">Choose your charm, your house, and the kind of magic you bring to a room.</span>
+        </div>
+        <div class="quiz-progress-wrap">
+          <div class="progress-copy"><span id="questionCount">QUESTION 1 OF 8</span><button class="previous-question" id="previousQuestion" type="button" disabled>← Previous</button></div>
+          <div class="progress-track" id="progressTrack" role="progressbar" aria-label="Quiz progress" aria-valuemin="0" aria-valuemax="8" aria-valuenow="1"><span id="progressBar"></span></div>
+          <p class="resume-status" id="resumeStatus" role="status" aria-live="polite"></p>
+        </div>
+        <div class="question-card">
+          <p class="eyebrow" id="questionCategory">A little about you</p>
+          <h1 id="questionText" tabindex="-1"></h1>
+          <p class="question-hint">Pick what you'd actually do—not what sounds impressive.</p>
+          <div class="answer-list" id="answerList" role="group" aria-labelledby="questionText"></div>
+          <p class="quiz-footnote">First thought counts. Overthinking is optional.</p>
+        </div>
+      </section>
+
+      <section class="view result-view is-hidden" id="resultView" aria-labelledby="resultHeading" aria-hidden="true">
+        <div class="result-topline"><button class="text-button" id="resultBack" type="button"><span aria-hidden="true">←</span> Explore fandoms</button></div>
+        <article class="result-card" id="resultCard">
+          <div class="result-badge" id="resultBadge">YOUR CHARACTER MATCH</div>
+          <p class="result-intro">In the <span id="resultFandomName">Harry Potter</span> universe…</p>
+          <p class="result-theme-note" id="resultThemeNote"></p>
+          <h1 id="resultHeading"><span id="resultLead">You are</span> <span id="resultName">Hermione</span></h1>
+          <p class="result-archetype" id="resultArchetype"></p>
+          <div class="result-divider"></div>
+          <p class="result-description" id="resultDescription"></p>
+          <div class="trait-list" id="traitList" aria-label="Your traits"></div>
+          <p class="unofficial-note">A just-for-fun personality match—not an official result.</p>
+        </article>
+        <div class="result-actions">
+          <button class="button button-primary" type="button" id="shareResult"><span aria-hidden="true">↗</span> Share result card</button>
+          <button class="button button-outline" type="button" id="downloadResultCard"><span aria-hidden="true">↓</span> Download card</button>
+          <button class="button button-outline" type="button" id="tryAgain">Try again <span aria-hidden="true">↻</span></button>
+        </div>
+        <div class="social-share" id="socialShare" hidden>
+          <span class="social-share-label">Post your card</span>
+          <button type="button" class="social-link" id="shareX">X / Twitter</button>
+          <button type="button" class="social-link" id="shareFacebook">Facebook</button>
+          <button type="button" class="social-link" id="shareWhatsApp">WhatsApp</button>
+          <p>Image sharing is supported where your browser allows it. Otherwise download the card and attach it to your post.</p>
+        </div>
+        <p class="share-status" id="shareStatus" role="status" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="about">
+      <a class="brand footer-brand" href="#top" aria-label="Fandom Fate home" data-home-link><img src="assets/brand-mark.svg" width="32" height="32" alt=""><span>Fandom <span class="brand-light">Fate</span><i>.</i></span></a>
+      <p>Made for the love of stories and the people who find themselves in them.</p>
+      <p class="disclaimer">Fandom Fate is an unofficial fan-made project and is not affiliated with or endorsed by any franchise or rights holder. All franchise names and characters belong to their respective owners.</p>
+    </footer>
+  </div>
+</body>
+</html>

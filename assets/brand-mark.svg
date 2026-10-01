@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Fandom Fate open-book mark">
+  <rect width="64" height="64" fill="#c95541"/>
+  <path d="M10 20c9-4 16-2 22 3v27c-7-5-14-7-22-4V20Z" fill="#fffdf7" stroke="#292638" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M32 23c6-5 13-7 22-3v26c-8-3-15-1-22 4V23Z" fill="#e4e7ec" stroke="#292638" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M32 23v27" fill="none" stroke="#292638" stroke-width="3"/>
+  <path d="M45 7h12v21l-6-4-6 4V7Z" fill="#ddb653" stroke="#292638" stroke-width="1.5" stroke-linejoin="round"/>
+</svg>
