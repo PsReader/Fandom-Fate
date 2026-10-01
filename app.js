@@ -362,7 +362,13 @@
       const meta = document.createElement('span');
       meta.className = 'fandom-meta';
       const hasQuizShelf = Array.isArray(fandom.quizzes) && fandom.quizzes.length > 1;
-      meta.textContent = hasQuizShelf ? `${fandom.quizzes.length} quiz types` : fandom.status === 'live' ? fandom.count : fandom.category;
+      // ponytail: question totals derive from the quiz definitions so the card can never claim a stale number.
+      const liveQuestions = (fandom.quizzes || []).reduce((sum, quiz) => sum + (getQuizDefinition(quiz.id)?.questions.length || 0), 0);
+      meta.textContent = hasQuizShelf
+        ? `${fandom.quizzes.length} quiz types`
+        : fandom.status === 'live'
+          ? `${liveQuestions} questions`
+          : fandom.category;
       if (fandom.status === 'live') {
         const button = document.createElement('button');
         button.className = 'fandom-link';
@@ -755,8 +761,9 @@
   byId('tryAgain').addEventListener('click', () => startQuiz(activeQuiz, { resume: false }));
   byId('audioToggle').addEventListener('click', async () => {
     const muted = audioEngine.toggle(!audioEngine.isMuted());
-    if (!muted) await audioEngine.start(activeFandom.theme?.audio);
+    // Paint the new state before awaiting audio: ctx.resume() can stall when no output device exists.
     updateAudioToggle();
+    if (!muted) await audioEngine.start(activeFandom.theme?.audio);
   });
   byId('shareResult').addEventListener('click', shareResult);
   byId('downloadResultCard').addEventListener('click', downloadResultCard);

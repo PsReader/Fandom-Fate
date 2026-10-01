@@ -8,7 +8,6 @@ window.FANDOM_DATA = {
       "glyph": "HP",
       "accent": "#c95541",
       "status": "live",
-      "count": "18 questions",
       "quizzes": [
         {
           "id": "character-match",
@@ -65,7 +64,6 @@ window.FANDOM_DATA = {
       "glyph": "LOTR",
       "accent": "#7b6848",
       "status": "live",
-      "count": "18 questions",
       "quizzes": [
         {
           "id": "lord-of-the-rings-character-match",
@@ -89,7 +87,7 @@ window.FANDOM_DATA = {
         "tagline": "Find the courage, care, and wisdom you would carry beyond the next hill.",
         "motif": "THERE AND BACK AGAIN",
         "mark": "LOTR",
-        "accent": "#6d7d50",
+        "accent": "#5f6d46",
         "soft": "#e3ead8",
         "ink": "#35462e",
         "texture": "leaves",
@@ -114,7 +112,6 @@ window.FANDOM_DATA = {
       "glyph": "LOTM",
       "accent": "#536889",
       "status": "live",
-      "count": "18 questions",
       "quizzes": [
         {
           "id": "pathway-sorting",
@@ -138,7 +135,7 @@ window.FANDOM_DATA = {
         "tagline": "Follow the clue, question the cost, and see what waits behind the next door.",
         "motif": "BEYOND THE VEIL",
         "mark": "LOTM",
-        "accent": "#526a91",
+        "accent": "#51688f",
         "soft": "#dfe7f1",
         "ink": "#263853",
         "texture": "constellation",
@@ -163,7 +160,6 @@ window.FANDOM_DATA = {
       "glyph": "MV",
       "accent": "#9e594d",
       "status": "live",
-      "count": "18 questions",
       "quizzes": [
         {
           "id": "marvel-character-match",
@@ -187,7 +183,7 @@ window.FANDOM_DATA = {
         "tagline": "Your powers matter. So does what you do when the plan breaks.",
         "motif": "CASE FILE / 616",
         "mark": "MV",
-        "accent": "#b44a3d",
+        "accent": "#a34237",
         "soft": "#f0d8d2",
         "ink": "#4c2928",
         "texture": "panels",
@@ -212,7 +208,6 @@ window.FANDOM_DATA = {
       "glyph": "DS",
       "accent": "#536889",
       "status": "live",
-      "count": "18 questions",
       "quizzes": [
         {
           "id": "disney-character-match",
@@ -236,7 +231,7 @@ window.FANDOM_DATA = {
         "tagline": "Follow the feeling, choose the brave turn, and make room for a little wonder.",
         "motif": "ONCE UPON A TIME",
         "mark": "DS",
-        "accent": "#7563a1",
+        "accent": "#6d5c96",
         "soft": "#e6e0f2",
         "ink": "#3f355c",
         "texture": "confetti",
@@ -261,7 +256,6 @@ window.FANDOM_DATA = {
       "glyph": "SW",
       "accent": "#71819c",
       "status": "live",
-      "count": "18 questions",
       "quizzes": [
         {
           "id": "star-wars-character-match",
@@ -310,7 +304,6 @@ window.FANDOM_DATA = {
       "glyph": "ST",
       "accent": "#c7828a",
       "status": "live",
-      "count": "18 questions",
       "quizzes": [
         {
           "id": "stranger-things-character-match",
@@ -334,7 +327,7 @@ window.FANDOM_DATA = {
         "tagline": "Bring a flashlight, trust your friends, and do not ignore the weird detail.",
         "motif": "HAWKINS / AFTER DARK",
         "mark": "ST",
-        "accent": "#95576f",
+        "accent": "#8d5269",
         "soft": "#f0dce4",
         "ink": "#4d2e40",
         "texture": "static",
@@ -359,7 +352,6 @@ window.FANDOM_DATA = {
       "glyph": "HG",
       "accent": "#a17b45",
       "status": "live",
-      "count": "18 questions",
       "quizzes": [
         {
           "id": "hunger-games-character-match",
@@ -383,7 +375,7 @@ window.FANDOM_DATA = {
         "tagline": "Survival is one choice. What you protect, refuse, and remember is another.",
         "motif": "DISTRICT ARCHIVE",
         "mark": "HG",
-        "accent": "#9b6d32",
+        "accent": "#845e2b",
         "soft": "#eee1cd",
         "ink": "#4b3927",
         "texture": "stitches",
