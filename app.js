@@ -1,4 +1,4 @@
-(() => {
+﻿(() => {
   'use strict';
   const data = window.FANDOM_DATA;
   const homeView = document.getElementById('homeView');
@@ -686,7 +686,7 @@
     if (!currentResult) return;
     const shareNoun = activeQuiz.shareNoun || 'character';
     const shareUrl = getResultShareUrl();
-    const shareText = `My Fandom Fate: My ${shareNoun} match is ${currentResult.name} — ${currentResult.archetype}. Take the quiz and find your fit! ${shareUrl}`;
+    const shareText = `My Fandom Fate: My ${shareNoun} match is ${currentResult.name}, ${currentResult.archetype}. Take the quiz and find your fit! ${shareUrl}`;
     const status = byId('shareStatus');
     try {
       const blob = await createResultCardBlob();
@@ -711,14 +711,14 @@
         status.textContent = 'Result text copied. Download the card to post the image.';
         showSocialFallback();
       } catch (_) {
-        status.textContent = 'Sharing is not available here—download your card to post it manually.';
+        status.textContent = 'Sharing is not available here. Download your card to post it manually.';
         showSocialFallback();
       }
     }
   }
 
   function socialText() {
-    return `My Fandom Fate result is ${currentResult.name} — ${currentResult.archetype}. Take the quiz and find your fit! ${getResultShareUrl()}`;
+    return `My Fandom Fate result is ${currentResult.name}, ${currentResult.archetype}. Take the quiz and find your fit! ${getResultShareUrl()}`;
   }
 
   function openSocial(url) {

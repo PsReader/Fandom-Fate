@@ -1,0 +1,24 @@
+{
+  "name": "Fandom Fate",
+  "short_name": "Fandom Fate",
+  "description": "Take fun fandom personality quizzes and find your closest fictional character match.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f0e4",
+  "theme_color": "#f5f0e4",
+  "icons": [
+    {
+      "src": "assets/brand-mark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

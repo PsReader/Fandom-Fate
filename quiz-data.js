@@ -1,4 +1,4 @@
-window.FANDOM_DATA = {
+﻿window.FANDOM_DATA = {
   "fandoms": [
     {
       "id": "wizarding-world",
@@ -663,7 +663,7 @@ window.FANDOM_DATA = {
             "result": "draco"
           },
           {
-            "text": "Break the pattern with a solution nobody expects—but test it before making things worse.",
+            "text": "Break the pattern with a solution nobody expects, but test it before making things worse.",
             "result": "twins"
           }
         ]
@@ -764,7 +764,7 @@ window.FANDOM_DATA = {
         "id": "harry",
         "name": "Harry",
         "archetype": "The one who steps up",
-        "description": "You do not always ask to be the one who steps in. You just notice when nobody else has—and go anyway. You are willing to reject a powerful shortcut when it would cost someone else their freedom, and you do not confuse a celebrated victory with a clean one.",
+        "description": "You do not always ask to be the one who steps in. You just notice when nobody else has, and go anyway. You are willing to reject a powerful shortcut when it would cost someone else their freedom, and you do not confuse a celebrated victory with a clean one.",
         "traits": [
           "Brave",
           "Loyal",
@@ -803,7 +803,7 @@ window.FANDOM_DATA = {
         "id": "luna",
         "name": "Luna",
         "archetype": "The delightful oddball",
-        "description": "You have a theory about the strange little detail—and every so often, you are the only person who noticed it. You leave room for an untidy truth, which helps people see beyond the story that power or popularity wants them to accept.",
+        "description": "You have a theory about the strange little detail, and every so often, you are the only person who noticed it. You leave room for an untidy truth, which helps people see beyond the story that power or popularity wants them to accept.",
         "traits": [
           "Original",
           "Open-minded",
@@ -829,7 +829,7 @@ window.FANDOM_DATA = {
         "id": "twins",
         "name": "Fred & George",
         "archetype": "The idea that somehow works",
-        "description": "There is always a version of the plan that is funnier. You tend to find it—and, annoyingly for everyone else, you can often make it work. Your best mischief punctures false certainty, but you still know when a joke must become a practical rescue plan.",
+        "description": "There is always a version of the plan that is funnier. You tend to find it. Annoyingly for everyone else, you can often make it work. Your best mischief punctures false certainty, but you still know when a joke must become a practical rescue plan.",
         "traits": [
           "Inventive",
           "Playful",
@@ -1207,7 +1207,7 @@ window.FANDOM_DATA = {
           "id": "fool",
           "name": "The Fool Pathway",
           "archetype": "The one who always has another route",
-          "description": "You keep more than one route—and more than one version of yourself—available. Uncertainty does not vanish around you; it becomes something you can use.",
+          "description": "You keep more than one route, and more than one version of yourself, available. Uncertainty does not vanish around you; it becomes something you can use.",
           "traits": [
             "Adaptable",
             "Clever",
@@ -1979,7 +1979,7 @@ window.FANDOM_DATA = {
           "id": "frodo",
           "name": "Frodo Baggins",
           "archetype": "The one who keeps going",
-          "description": "You can carry a hard job without pretending it is easy. You keep an eye on what the mission is doing to people—including you—and that honesty is a big part of your courage.",
+          "description": "You can carry a hard job without pretending it is easy. You keep an eye on what the mission is doing to people, including you, and that honesty is a big part of your courage.",
           "traits": [
             "Brave",
             "Reflective",
@@ -2031,7 +2031,7 @@ window.FANDOM_DATA = {
           "id": "eowyn",
           "name": "Éowyn",
           "archetype": "The one who refuses the box",
-          "description": "You refuse to let an old expectation decide what you are allowed to do. You want a life you chose yourself—and you are ready to act when everyone else says to stand back.",
+          "description": "You refuse to let an old expectation decide what you are allowed to do. You want a life you chose yourself, and you are ready to act when everyone else says to stand back.",
           "traits": [
             "Defiant",
             "Brave",
@@ -2836,7 +2836,7 @@ window.FANDOM_DATA = {
               "result": "leia"
             },
             {
-              "text": "My read of the room—and my ability to make a fast exit.",
+              "text": "My read of the room, and my ability to make a fast exit.",
               "result": "han"
             },
             {
