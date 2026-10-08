@@ -1,4 +1,4 @@
-﻿(() => {
+(() => {
   'use strict';
   const data = window.FANDOM_DATA;
   const homeView = document.getElementById('homeView');
@@ -240,7 +240,7 @@
     const game = miniGames[activeFandom.id];
     const openButton = byId('miniGameOpen');
     const badge = byId('miniGameBadge');
-    if (openButton) openButton.textContent = `${complete ? '✓' : '✦'} ${game?.title || 'Open side quest'}`;
+    if (openButton) openButton.textContent = `${game?.title || 'Open side quest'}${complete ? ' (complete)' : ''}`;
     if (badge) badge.textContent = complete ? 'Badge earned' : 'Unclaimed';
   }
 
@@ -373,7 +373,7 @@
         const button = document.createElement('button');
         button.className = 'fandom-link';
         button.type = 'button';
-        button.textContent = hasQuizShelf ? 'View quizzes  →' : 'Start quiz  →';
+        button.textContent = hasQuizShelf ? 'View quizzes' : 'Start quiz';
         button.setAttribute('aria-label', hasQuizShelf ? `View quizzes in ${fandom.name}` : `Start the ${fandom.name} quiz`);
         button.addEventListener('click', () => {
           if (hasQuizShelf) return showQuizCatalog(fandom);
@@ -430,7 +430,7 @@
         const button = document.createElement('button');
         button.className = 'quiz-type-link';
         button.type = 'button';
-        button.textContent = 'Start quiz  →';
+        button.textContent = 'Start quiz';
         button.setAttribute('aria-label', `Start ${quiz.title}`);
         button.addEventListener('click', () => startQuiz(getQuizDefinition(quiz.id)));
         footer.append(button);
@@ -503,7 +503,7 @@
     if (buttons.some((button) => button.disabled)) return;
     buttons.forEach((button) => { button.disabled = true; });
     selectedButton.classList.add('selected');
-    selectedButton.querySelector('.answer-marker').textContent = '✓';
+    selectedButton.querySelector('.answer-marker').textContent = '\u2713';
     audioEngine.playSelection();
     selectedAnswers.push(resultId);
     const delay = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 220;

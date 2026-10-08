@@ -719,7 +719,7 @@
             "result": "luna"
           },
           {
-            "text": "Trust your self-aware side and choose a practical next step that keeps dignity and agency intact.",
+            "text": "Check that the agreement leaves the person affected free to refuse.",
             "result": "draco"
           },
           {
@@ -1130,7 +1130,7 @@
               "result": "visionary"
             },
             {
-              "text": "Trust your clear-eyed side and choose a practical next step that keeps dignity and agency intact.",
+              "text": "Weigh what each use reveals about you, then decide whether the clue is worth that exposure.",
               "result": "sun"
             },
             {
@@ -1942,7 +1942,7 @@
               "result": "gandalf"
             },
             {
-              "text": "Trust your compassionate side and choose a practical next step that keeps dignity and agency intact.",
+              "text": "Share the burden only after the companion carrying it has chosen freely.",
               "result": "eowyn"
             }
           ]
@@ -2331,7 +2331,7 @@
               "result": "black-panther"
             },
             {
-              "text": "Trust your reflective side and choose a practical next step that keeps dignity and agency intact.",
+              "text": "Plan for the next preventable disaster while people are still safe from this one.",
               "result": "wanda"
             }
           ]
@@ -2668,7 +2668,7 @@
               "result": "tiana"
             },
             {
-              "text": "Trust your playful side and choose a practical next step that keeps dignity and agency intact.",
+              "text": "Leave room to grow beyond the version of yourself that earned the dream.",
               "result": "stitch"
             }
           ]
@@ -3052,7 +3052,7 @@
               "result": "rey"
             },
             {
-              "text": "Trust your mentoring side and choose a practical next step that keeps dignity and agency intact.",
+              "text": "Keep the parts of tradition that help people, and question the hierarchy around them.",
               "result": "ahsoka"
             }
           ]
@@ -3389,7 +3389,7 @@
               "result": "nancy"
             },
             {
-              "text": "Trust your clever side and choose a practical next step that keeps dignity and agency intact.",
+              "text": "Follow the missing detail until you know whether someone still needs help.",
               "result": "robin"
             }
           ]
@@ -3721,7 +3721,7 @@
               "result": "finnick"
             },
             {
-              "text": "Trust your independent side and choose a practical next step that keeps dignity and agency intact.",
+              "text": "Ask the person in the spotlight what they want before making them a symbol.",
               "result": "johanna"
             }
           ]
