@@ -402,7 +402,8 @@
     grid.setAttribute('aria-label', `${fandom.name} quiz types`);
     grid.replaceChildren();
     (fandom.quizzes || []).forEach((quiz) => {
-      const isReady = quiz.status === 'live' && Boolean(getQuizDefinition(quiz.id));
+      const definition = getQuizDefinition(quiz.id);
+      const isReady = quiz.status === 'live' && Boolean(definition);
       const card = document.createElement('article');
       card.className = `quiz-type-card${isReady ? '' : ' is-coming'}`;
 
@@ -417,9 +418,9 @@
       head.append(kind, status);
 
       const title = document.createElement('h2');
-      title.textContent = quiz.title;
+      title.textContent = definition?.title || quiz.title;
       const description = document.createElement('p');
-      description.textContent = quiz.description;
+      description.textContent = definition?.intro || quiz.description;
       const footer = document.createElement('div');
       footer.className = 'quiz-type-footer';
       const meta = document.createElement('span');
@@ -464,6 +465,13 @@
       byId('resumeStatus').textContent = '';
     }
     byId('quizFandomName').textContent = activeQuiz.fandomName;
+    byId('quizKind').textContent = activeQuiz.kind || 'Personality quiz';
+    byId('quizTitle').textContent = activeQuiz.title || `Who are you in ${activeFandom.name}?`;
+    byId('quizIntro').textContent = activeQuiz.intro || activeFandom.description;
+    const spoilerNote = byId('quizSpoilerNote');
+    spoilerNote.textContent = activeQuiz.spoilerNote || '';
+    spoilerNote.hidden = !activeQuiz.spoilerNote;
+    byId('quizView').dataset.quiz = activeQuiz.id;
     showView(quizView);
     renderQuestion();
     window.setTimeout(() => byId('questionText').focus({ preventScroll: true }), 40);
@@ -543,6 +551,9 @@
     audioEngine.stop();
     audioEngine.playResult();
     applyFandomTheme(getFandomForQuiz(activeQuiz), { playCue: options.playCue !== false });
+    byId('resultCard').dataset.cardStyle = activeFandom.id;
+    byId('resultCard').dataset.treatment = currentResult.cardTreatment;
+    byId('resultQuizTitle').textContent = activeQuiz.title || activeQuiz.kind || '';
     if (options.updateUrl !== false && currentResult) window.history.replaceState({}, '', getResultShareUrl());
     byId('resultFandomName').textContent = activeQuiz.fandomName;
     byId('resultBadge').textContent = activeQuiz.resultBadge || 'YOUR CHARACTER MATCH';
@@ -632,36 +643,118 @@
     const soft = theme.soft || '#fffdf7';
     const accent = theme.accent || '#c95541';
     const ink = theme.ink || '#292638';
+    const style = activeFandom.id;
+    const treatment = currentResult.cardTreatment;
     ctx.fillStyle = paper;
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     ctx.fillStyle = soft;
     ctx.fillRect(50, 50, 1100, 530);
     ctx.strokeStyle = ink;
     ctx.lineWidth = 5;
-    ctx.strokeRect(50, 50, 1100, 530);
+    if (style === 'wizarding-world') {
+      ctx.beginPath(); ctx.roundRect(50, 50, 1100, 530, [26, 3, 26, 3]); ctx.stroke();
+      ctx.fillStyle = accent;
+      for (let i = 0; i < 7; i += 1) { ctx.beginPath(); ctx.arc(950 + (i % 4) * 34, 105 + Math.floor(i / 4) * 34, 3, 0, Math.PI * 2); ctx.fill(); }
+    } else if (style === 'lord-of-the-rings') {
+      ctx.lineWidth = 8; ctx.strokeRect(50, 50, 1100, 530);
+      ctx.lineWidth = 2; ctx.strokeRect(66, 66, 1068, 498);
+      ctx.strokeStyle = accent;
+      for (let i = 0; i < 5; i += 1) { ctx.beginPath(); ctx.moveTo(1020 + i * 15, 90); ctx.lineTo(1035 + i * 15, 75); ctx.stroke(); }
+    } else if (style === 'lord-of-the-mysteries') {
+      ctx.lineWidth = 3; ctx.strokeRect(50, 50, 1100, 530); ctx.strokeRect(63, 63, 1074, 504);
+      ctx.beginPath(); ctx.arc(1050, 110, 27, 0, Math.PI * 2); ctx.stroke(); ctx.beginPath(); ctx.arc(1050, 110, 8, 0, Math.PI * 2); ctx.fillStyle = accent; ctx.fill();
+    } else if (style === 'marvel') {
+      ctx.strokeRect(50, 50, 1100, 530); ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(1050, 50); ctx.lineTo(1050, 580); ctx.moveTo(1050, 155); ctx.lineTo(1150, 155); ctx.stroke();
+      ctx.fillStyle = accent; ctx.fillRect(50, 50, 1100, 12);
+    } else if (style === 'disney') {
+      ctx.lineWidth = 7; ctx.beginPath(); ctx.roundRect(50, 50, 1100, 530, [100, 100, 8, 8]); ctx.stroke();
+      ctx.lineWidth = 2; ctx.beginPath(); ctx.roundRect(66, 66, 1068, 498, [88, 88, 4, 4]); ctx.stroke();
+    } else if (style === 'star-wars') {
+      ctx.strokeRect(50, 50, 1100, 530); ctx.lineWidth = 2; ctx.strokeRect(64, 64, 1072, 502);
+      ctx.beginPath(); ctx.ellipse(1035, 110, 50, 16, -.2, 0, Math.PI * 2); ctx.stroke(); ctx.beginPath(); ctx.arc(1035, 110, 5, 0, Math.PI * 2); ctx.fillStyle = accent; ctx.fill();
+    } else if (style === 'stranger-things') {
+      ctx.setLineDash([14, 6]); ctx.lineWidth = 6; ctx.strokeRect(50, 50, 1100, 530); ctx.setLineDash([]);
+      ctx.lineWidth = 2; for (let y = 72; y < 560; y += 28) { ctx.beginPath(); ctx.moveTo(1070, y); ctx.lineTo(1128, y); ctx.stroke(); }
+    } else if (style === 'hunger-games') {
+      ctx.strokeRect(50, 50, 1100, 530); ctx.lineWidth = 2; ctx.setLineDash([3, 7]); ctx.strokeRect(66, 66, 1068, 498); ctx.setLineDash([]);
+      ctx.fillStyle = accent; ctx.beginPath(); ctx.moveTo(1090, 75); ctx.lineTo(1110, 95); ctx.lineTo(1090, 115); ctx.lineTo(1070, 95); ctx.closePath(); ctx.fill();
+    } else ctx.strokeRect(50, 50, 1100, 530);
+    ctx.strokeStyle = accent;
+    ctx.fillStyle = soft;
+    ctx.lineWidth = 4;
+    if (treatment === 'seal') {
+      ctx.beginPath(); ctx.arc(1060, 112, 28, 0, Math.PI * 2); ctx.stroke();
+      ctx.beginPath(); ctx.arc(1060, 112, 17, 0, Math.PI * 2); ctx.stroke();
+    } else if (treatment === 'ribbon') {
+      ctx.fillStyle = accent; ctx.fillRect(820, 50, 330, 14);
+      ctx.beginPath(); ctx.moveTo(1082, 64); ctx.lineTo(1082, 91); ctx.lineTo(1100, 81); ctx.lineTo(1118, 91); ctx.lineTo(1118, 64); ctx.fill();
+    } else if (treatment === 'ledger') {
+      ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(94, 76); ctx.lineTo(94, 554); ctx.stroke();
+      ctx.beginPath(); ctx.moveTo(108, 76); ctx.lineTo(108, 554); ctx.stroke();
+    } else if (treatment === 'ticket') {
+      ctx.setLineDash([5, 7]); ctx.beginPath(); ctx.moveTo(1010, 76); ctx.lineTo(1010, 554); ctx.stroke(); ctx.setLineDash([]);
+      for (let y = 97; y <= 533; y += 22) { ctx.beginPath(); ctx.arc(1010, y, 3, 0, Math.PI * 2); ctx.fill(); }
+    } else if (treatment === 'orbit') {
+      ctx.beginPath(); ctx.ellipse(1060, 112, 40, 16, -.35, 0, Math.PI * 2); ctx.stroke();
+      ctx.beginPath(); ctx.arc(1060, 112, 5, 0, Math.PI * 2); ctx.fill();
+    } else {
+      ctx.lineWidth = 2; ctx.strokeRect(80, 80, 1040, 470);
+      ctx.fillStyle = accent; ctx.fillRect(80, 80, 24, 24);
+    }
     ctx.fillStyle = accent;
     ctx.fillRect(50, 50, 18, 530);
     ctx.fillStyle = ink;
-    ctx.font = '700 20px Courier New, monospace';
-    ctx.fillText((theme.kicker || activeFandom.name).toUpperCase(), 105, 112);
-    ctx.font = '700 16px Courier New, monospace';
+    ctx.font = '700 18px Courier New, monospace';
+    const textX = treatment === 'ledger' ? 145 : 600;
+    const textAlign = treatment === 'ledger' ? 'left' : 'center';
+    ctx.textAlign = textAlign;
+    ctx.fillText((theme.kicker || activeFandom.name).toUpperCase(), textX, 91);
+    ctx.font = '700 14px Courier New, monospace';
     ctx.fillStyle = accent;
-    ctx.fillText((activeQuiz.resultBadge || 'YOUR RESULT').toUpperCase(), 105, 155);
+    ctx.fillText((activeQuiz.resultBadge || 'YOUR RESULT').toUpperCase(), textX, 126);
+    ctx.font = '700 12px Courier New, monospace';
     ctx.fillStyle = ink;
-    ctx.font = '700 58px Georgia, serif';
-    ctx.fillText(activeQuiz.resultLead || 'You are', 105, 245);
+    ctx.fillText((activeQuiz.title || activeQuiz.kind || '').toUpperCase().slice(0, 70), textX, 155);
+    ctx.fillStyle = ink;
+    ctx.font = '700 42px Georgia, serif';
+    wrapCanvasText(ctx, activeQuiz.resultLead || 'You are', textX, 212, 930, 50, 1);
     ctx.fillStyle = accent;
-    ctx.font = '700 72px Georgia, serif';
-    const nameEnd = wrapCanvasText(ctx, currentResult.name, 105, 325, 900, 78, 1);
+    let resultNameSize = 62;
+    ctx.font = `700 ${resultNameSize}px Georgia, serif`;
+    while (ctx.measureText(currentResult.name).width > 930 && resultNameSize > 44) {
+      resultNameSize -= 2;
+      ctx.font = `700 ${resultNameSize}px Georgia, serif`;
+    }
+    const nameEnd = wrapCanvasText(ctx, currentResult.name, textX, 286, 930, 68, 1);
     ctx.fillStyle = ink;
-    ctx.font = 'italic 26px Georgia, serif';
-    wrapCanvasText(ctx, currentResult.archetype, 105, nameEnd + 8, 820, 34, 2);
-    ctx.font = '18px Courier New, monospace';
+    ctx.font = 'italic 21px Georgia, serif';
+    const archetypeEnd = wrapCanvasText(ctx, currentResult.archetype, textX, nameEnd + 3, 900, 27, 2);
+    ctx.font = '17px Georgia, serif';
+    const descriptionEnd = wrapCanvasText(ctx, currentResult.description, textX, archetypeEnd + 5, 920, 22, 3);
+    ctx.font = '700 12px Courier New, monospace';
+    const traitWidths = currentResult.traits.map((trait) => ctx.measureText(trait.toUpperCase()).width + 18);
+    const traitTotal = traitWidths.reduce((sum, width) => sum + width, 0) + Math.max(0, traitWidths.length - 1) * 8;
+    let traitX = treatment === 'ledger' ? 145 : 600 - traitTotal / 2;
+    const traitY = Math.min(descriptionEnd + 7, 529);
+    currentResult.traits.forEach((trait, index) => {
+      const width = traitWidths[index];
+      ctx.fillStyle = soft;
+      ctx.fillRect(traitX, traitY, width, 22);
+      ctx.strokeStyle = ink;
+      ctx.lineWidth = 1;
+      ctx.strokeRect(traitX, traitY, width, 22);
+      ctx.fillStyle = ink;
+      ctx.fillText(trait.toUpperCase(), traitX + 9, traitY + 15);
+      traitX += width + 8;
+    });
+    ctx.font = '700 12px Courier New, monospace';
     ctx.fillStyle = ink;
-    ctx.fillText((theme.motif || activeFandom.name).toUpperCase(), 105, 530);
-    ctx.font = '700 17px Courier New, monospace';
+    ctx.textAlign = 'left';
+    ctx.fillText((theme.motif || activeFandom.name).toUpperCase(), 105, 562);
     ctx.fillStyle = accent;
-    ctx.fillText('FANDOM FATE / JUST-FOR-FUN', 785, 530);
+    ctx.textAlign = 'right';
+    ctx.fillText('FANDOM FATE / JUST FOR FUN', 1095, 562);
+    ctx.textAlign = 'left';
     return new Promise((resolve, reject) => canvas.toBlob((blob) => blob ? resolve(blob) : reject(new Error('Card image could not be created')), 'image/png'));
   }
 

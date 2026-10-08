@@ -12,24 +12,24 @@
         {
           "id": "character-match",
           "kind": "Character match",
-          "title": "Who are you in the Wizarding World?",
-          "description": "Eight core choices plus two harder dilemmas turn your instincts into a character match.",
+          "title": "Who would you be at Hogwarts?",
+          "description": "See how your instincts line up with six familiar students, from first move to final decision.",
           "status": "live",
           "meta": "12 questions"
         },
         {
           "id": "house-sorting",
           "kind": "House sorting",
-          "title": "Which Hogwarts house are you?",
-          "description": "A values-first sort with two harder dilemmas about courage, loyalty, curiosity, and ambition.",
+          "title": "Which Hogwarts house fits your values?",
+          "description": "Sort by the choices you make when fairness, nerve, curiosity, and loyalty pull in different directions.",
           "status": "live",
           "meta": "12 questions"
         },
         {
           "id": "wizarding-world-spellcraft-style",
           "kind": "Spellcraft style",
-          "title": "What is your magical style?",
-          "description": "A fresh set of original dilemmas maps your curiosity, courage, care, or inventive streak to a magical style.",
+          "title": "How would you work magic?",
+          "description": "Find the care and discipline you would bring to a difficult spell.",
           "status": "live",
           "meta": "10 questions"
         }
@@ -68,16 +68,16 @@
         {
           "id": "lord-of-the-rings-character-match",
           "kind": "Character match",
-          "title": "Which Lord of the Rings character fits you?",
-          "description": "Ten choices explore the kind of courage, loyalty, and wisdom you bring to a long road.",
+          "title": "Who would you be on the long road?",
+          "description": "Find the Middle-earth companion whose way of carrying danger and care most resembles yours.",
           "status": "live",
           "meta": "12 questions"
         },
         {
           "id": "lord-of-the-rings-fellowship-role",
           "kind": "Fellowship role",
-          "title": "What is your fellowship role?",
-          "description": "Find the role you would bring to a long road: burden-bearer, leader, companion, or guide.",
+          "title": "What would you bring to the Fellowship?",
+          "description": "Choose how you would guide, carry, steady, or protect a company on a difficult road.",
           "status": "live",
           "meta": "10 questions"
         }
@@ -116,16 +116,16 @@
         {
           "id": "pathway-sorting",
           "kind": "Pathway sorting",
-          "title": "Which Pathway fits you?",
-          "description": "Ten original questions turn your instincts around mystery, power, and change into a closest-fit Pathway.",
+          "title": "Which Pathway would draw you in?",
+          "description": "Compare your appetite for evidence, change, influence, and the unknown with ten Lord of the Mysteries Pathways.",
           "status": "live",
           "meta": "12 questions"
         },
         {
           "id": "lord-of-the-mysteries-mystery-role",
           "kind": "Mystery role",
-          "title": "What is your mystery role?",
-          "description": "A second original quiz for readers who prefer thresholds, evidence, possibility, or loopholes.",
+          "title": "What role would you play in the Hidden City?",
+          "description": "Choose how you would investigate a sealed file and decide whether a dangerous gift is worth accepting.",
           "status": "live",
           "meta": "10 questions"
         }
@@ -164,16 +164,16 @@
         {
           "id": "marvel-character-match",
           "kind": "Character match",
-          "title": "Which Marvel hero fits you?",
-          "description": "Eight core choices plus two harder dilemmas turn your instincts into a closest-fit Marvel hero.",
+          "title": "Which Marvel hero shares your instincts?",
+          "description": "Find the hero whose way of helping when it counts and owning the consequences fits you.",
           "status": "live",
           "meta": "12 questions"
         },
         {
           "id": "marvel-team-role",
           "kind": "Team role",
-          "title": "What role do you bring to a Marvel team?",
-          "description": "Your instincts around responsibility, invention, principle, and community become a team role.",
+          "title": "What would you do on a hero team?",
+          "description": "Take the role you would bring when a rescue turns complicated and the team has to answer for its choices.",
           "status": "live",
           "meta": "10 questions"
         }
@@ -212,16 +212,16 @@
         {
           "id": "disney-character-match",
           "kind": "Character match",
-          "title": "Which Disney character fits you?",
-          "description": "Eight choices reveal the Disney character energy you bring to the story.",
+          "title": "Which Disney character fits your outlook?",
+          "description": "Follow what you do when a plan changes and you have to choose which dream to keep.",
           "status": "live",
           "meta": "10 questions"
         },
         {
           "id": "disney-story-role",
           "kind": "Story role",
-          "title": "What is your Disney story role?",
-          "description": "A new route through wonder, courage, loyalty, and the practical work of making a dream real.",
+          "title": "What part would you play in a storybook?",
+          "description": "Find whether you would chase the question, face the task, make a home, or build the dream.",
           "status": "live",
           "meta": "10 questions"
         }
@@ -260,16 +260,16 @@
         {
           "id": "star-wars-character-match",
           "kind": "Character match",
-          "title": "Which Star Wars character fits you?",
-          "description": "Eight core choices plus two harder dilemmas map your instincts to a galaxy-far-away character.",
+          "title": "Which Star Wars character shares your compass?",
+          "description": "See how you respond when your cause and the people beside you ask for different things.",
           "status": "live",
           "meta": "12 questions"
         },
         {
           "id": "star-wars-force-compass",
           "kind": "Force compass",
-          "title": "What guides your galactic choices?",
-          "description": "Map your instincts around hope, freedom, responsibility, and choosing your own path.",
+          "title": "What would guide your choices in the galaxy?",
+          "description": "Choose what you would carry through a broken tradition and an uneasy alliance.",
           "status": "live",
           "meta": "10 questions"
         }
@@ -308,16 +308,16 @@
         {
           "id": "stranger-things-character-match",
           "kind": "Character match",
-          "title": "Which Stranger Things character fits you?",
-          "description": "Eight choices turn your courage, curiosity, and loyalty into a Hawkins match.",
+          "title": "Who would you be in Hawkins?",
+          "description": "Find the character whose instinct to follow strange clues until the case makes sense.",
           "status": "live",
           "meta": "10 questions"
         },
         {
           "id": "stranger-things-survival-role",
           "kind": "Survival role",
-          "title": "What is your Hawkins survival role?",
-          "description": "A second Hawkins quiz about clues, friendship, practical courage, and getting the truth into the light.",
+          "title": "What would you do when Hawkins gets strange?",
+          "description": "Choose how you would follow the signal while keeping the group safe.",
           "status": "live",
           "meta": "10 questions"
         }
@@ -356,16 +356,16 @@
         {
           "id": "hunger-games-character-match",
           "kind": "Character match",
-          "title": "Which Hunger Games character fits you?",
-          "description": "Eight choices explore the strengths you would bring to a difficult arena.",
+          "title": "Who would you be in Panem?",
+          "description": "See how you survive while keeping the principles you refuse to trade.",
           "status": "live",
           "meta": "10 questions"
         },
         {
           "id": "hunger-games-resistance-role",
           "kind": "Resistance role",
-          "title": "What is your resistance role?",
-          "description": "Explore the different ways protection, humanity, strategy, and defiance can push back against a spectacle.",
+          "title": "What would you protect in a rebellion?",
+          "description": "Choose how you would choose what freedom requires when the spectacle controls the rules.",
           "status": "live",
           "meta": "10 questions"
         }
@@ -640,7 +640,7 @@
       },
       {
         "category": "The risky shortcut / bonus",
-        "text": "A powerful solution could end the danger, but it would also take away someone’s ability to choose. What matters most?",
+        "text": "A spell could end the danger, but it would take away someone’s right to choose. What matters most?",
         "answers": [
           {
             "text": "Find another path, even if I have to face the danger longer.",
@@ -659,7 +659,7 @@
             "result": "luna"
           },
           {
-            "text": "Consider who controls the spell and what leverage the choice creates.",
+            "text": "Consider who controls the spell and what influence the choice creates.",
             "result": "draco"
           },
           {
@@ -700,22 +700,22 @@
       },
       {
         "category": "The magical contract / deep dive",
-        "text": "A powerful magical contract would solve the immediate crisis, but one clause quietly limits another person’s freedom. What do you do before anyone signs?",
+        "text": "A Hogwarts contract can stop an immediate threat, but one clause binds a student to a choice they cannot undo. What do you check before anyone signs?",
         "answers": [
           {
-            "text": "Trust your brave side and turn that quality into a protective action, even if it makes the choice harder.",
+            "text": "Take the risk yourself if it keeps someone else from paying the price.",
             "result": "harry"
           },
           {
-            "text": "Trust your prepared side and make room for the people affected, not just the people with authority.",
+            "text": "Give the people affected a say before anyone in power decides.",
             "result": "hermione"
           },
           {
-            "text": "Trust your grounded side and stay beside the person carrying the emotional cost after the public decision.",
+            "text": "Stay with the person who will carry the cost after the decision.",
             "result": "ron"
           },
           {
-            "text": "Trust your perceptive side and use an unexpected angle that gives the group a second route forward.",
+            "text": "Find a route the crisis has not closed yet.",
             "result": "luna"
           },
           {
@@ -723,37 +723,37 @@
             "result": "draco"
           },
           {
-            "text": "Trust your inventive side and challenge the rule when following it would make you complicit in harm.",
+            "text": "Refuse a rule that makes you part of the harm.",
             "result": "twins"
           }
         ]
       },
       {
         "category": "The hearing at Hogwarts / deep dive",
-        "text": "During a tense hearing, the official story is tidy, the evidence is incomplete, and a frightened student is being blamed. Which instinct guides your next move?",
+        "text": "At a school hearing, a student is blamed before the evidence is complete. What do you do before the decision is sealed?",
         "answers": [
           {
-            "text": "Let your brave side test the idea against its consequences before calling it clever.",
+            "text": "Count who pays for the shortcut before calling it clever.",
             "result": "harry"
           },
           {
-            "text": "Let your prepared side learn enough to act without turning knowledge into another form of control.",
+            "text": "Learn what the knowledge lets you control before you use it.",
             "result": "hermione"
           },
           {
-            "text": "Let your grounded side keep the useful lesson while refusing to inherit the damage.",
+            "text": "Keep the lesson and stop the harm becoming someone else’s inheritance.",
             "result": "ron"
           },
           {
-            "text": "Let your perceptive side protect the future people who were not in the room cannot yet see.",
+            "text": "Ask what this choice means for people who cannot speak in the room.",
             "result": "luna"
           },
           {
-            "text": "Let your self-aware side leave an escape route in case your certainty is wrong.",
+            "text": "Keep a way to change course if your facts are wrong.",
             "result": "draco"
           },
           {
-            "text": "Let your inventive side use the information carefully so it cannot become someone else’s weapon.",
+            "text": "Share only what helps, and keep it from becoming another weapon.",
             "result": "twins"
           }
         ]
@@ -762,9 +762,10 @@
     "results": [
       {
         "id": "harry",
+        "cardTreatment": "ticket",
         "name": "Harry",
         "archetype": "The one who steps up",
-        "description": "You do not always ask to be the one who steps in. You just notice when nobody else has, and go anyway. You are willing to reject a powerful shortcut when it would cost someone else their freedom, and you do not confuse a celebrated victory with a clean one.",
+        "description": "You do not always ask to be the one who steps in. You just notice when nobody else has, and go anyway. You are willing to reject a shortcut when it would cost someone else their freedom, and you do not confuse a celebrated victory with a clean one.",
         "traits": [
           "Brave",
           "Loyal",
@@ -775,6 +776,7 @@
       },
       {
         "id": "hermione",
+        "cardTreatment": "orbit",
         "name": "Hermione",
         "archetype": "The one who read the instructions",
         "description": "You did read the instructions. Probably twice. Your deeper strength is knowing that information creates responsibility: you investigate the cost, record the lesson, and use what you know to make the room safer for others.",
@@ -788,6 +790,7 @@
       },
       {
         "id": "ron",
+        "cardTreatment": "frame",
         "name": "Ron",
         "archetype": "The ride-or-die",
         "description": "You make the long day less grim. Yours is the unglamorous kind of loyalty: showing up, telling the truth, and staying beside people after the applause has moved on. You make hard choices more humane by refusing to let anyone carry the cost alone.",
@@ -801,6 +804,7 @@
       },
       {
         "id": "luna",
+        "cardTreatment": "seal",
         "name": "Luna",
         "archetype": "The delightful oddball",
         "description": "You have a theory about the strange little detail, and every so often, you are the only person who noticed it. You leave room for an untidy truth, which helps people see beyond the story that power or popularity wants them to accept.",
@@ -814,6 +818,7 @@
       },
       {
         "id": "draco",
+        "cardTreatment": "ribbon",
         "name": "Draco",
         "archetype": "The sharp observer",
         "description": "You can read a room before everyone else has finished talking. You notice how status and fear shape a conversation, then have to decide whether you will keep playing the role other people handed you.",
@@ -827,6 +832,7 @@
       },
       {
         "id": "twins",
+        "cardTreatment": "ledger",
         "name": "Fred & George",
         "archetype": "The idea that somehow works",
         "description": "There is always a version of the plan that is funnier. You tend to find it. Annoyingly for everyone else, you can often make it work. Your best mischief punctures false certainty, but you still know when a joke must become a practical rescue plan.",
@@ -838,7 +844,11 @@
           "Disruptive"
         ]
       }
-    ]
+    ],
+    "kind": "Character match",
+    "title": "Who would you be at Hogwarts?",
+    "intro": "See how your instincts line up with six familiar students, from first move to final decision.",
+    "spoilerNote": "Lore note: Uses Hogwarts and magical terms. Major plot turns are left out."
   },
   "additionalQuizzes": {
     "pathway-sorting": {
@@ -1111,22 +1121,22 @@
         },
         {
           "category": "The sealed mystical artifact / deep dive",
-          "text": "A sealed artifact offers exactly the answer you need, but every use makes your identity easier for an unseen force to read. Which trade-off do you examine first?",
+          "text": "A sealed artifact can answer one urgent question, but each use leaves a clearer trace of your identity. What do you weigh first?",
           "answers": [
             {
-              "text": "Trust your adaptable side and turn that quality into a protective action, even if it makes the choice harder.",
+              "text": "Take the risk yourself if it keeps someone else from paying the price.",
               "result": "fool"
             },
             {
-              "text": "Trust your adventurous side and make room for the people affected, not just the people with authority.",
+              "text": "Give the people affected a say before anyone in power decides.",
               "result": "door"
             },
             {
-              "text": "Trust your disruptive side and stay beside the person carrying the emotional cost after the public decision.",
+              "text": "Stay with the person who will carry the cost after the decision.",
               "result": "error"
             },
             {
-              "text": "Trust your influential side and use an unexpected angle that gives the group a second route forward.",
+              "text": "Find a route the crisis has not closed yet.",
               "result": "visionary"
             },
             {
@@ -1134,69 +1144,69 @@
               "result": "sun"
             },
             {
-              "text": "Trust your commanding side and challenge the rule when following it would make you complicit in harm.",
+              "text": "Refuse a rule that makes you part of the harm.",
               "result": "tyrant"
             },
             {
-              "text": "Trust your knowledgeable side and take responsibility for the part of the outcome that belongs to you.",
+              "text": "Own the part of the outcome your choice can change.",
               "result": "white-tower"
             },
             {
-              "text": "Trust your self-aware side and make the brave move that keeps another person from standing alone.",
+              "text": "Stand beside the person who would otherwise face the risk alone.",
               "result": "hanged-man"
             },
             {
-              "text": "Trust your perceptive side and tell the truth in a way that gives people a chance to respond.",
+              "text": "Give people the truth before the choice is made for them.",
               "result": "demoness"
             },
             {
-              "text": "Trust your catalytic side and hold onto hope without pretending the cost is imaginary.",
+              "text": "Keep hope alive while naming the price honestly.",
               "result": "red-priest"
             }
           ]
         },
         {
           "category": "The Pathway crossroads / deep dive",
-          "text": "You discover that the safest Pathway choice preserves your current self while the more powerful one could change what you are capable of wanting. What decides your next step?",
+          "text": "A safer Pathway preserves what you know of yourself. A stronger one may change what you want. What would guide your choice?",
           "answers": [
             {
-              "text": "Let your adaptable side test the idea against its consequences before calling it clever.",
+              "text": "Count who pays for the shortcut before calling it clever.",
               "result": "fool"
             },
             {
-              "text": "Let your adventurous side learn enough to act without turning knowledge into another form of control.",
+              "text": "Learn what the knowledge lets you control before you use it.",
               "result": "door"
             },
             {
-              "text": "Let your disruptive side keep the useful lesson while refusing to inherit the damage.",
+              "text": "Keep the lesson and stop the harm becoming someone else’s inheritance.",
               "result": "error"
             },
             {
-              "text": "Let your influential side protect the future people who were not in the room cannot yet see.",
+              "text": "Ask what this choice means for people who cannot speak in the room.",
               "result": "visionary"
             },
             {
-              "text": "Let your clear-eyed side leave an escape route in case your certainty is wrong.",
+              "text": "Keep a way to change course if your facts are wrong.",
               "result": "sun"
             },
             {
-              "text": "Let your commanding side use the information carefully so it cannot become someone else’s weapon.",
+              "text": "Share only what helps, and keep it from becoming another weapon.",
               "result": "tyrant"
             },
             {
-              "text": "Let your knowledgeable side rebuild the plan around what the people involved can actually consent to.",
+              "text": "Build the plan around what every person involved can genuinely agree to.",
               "result": "white-tower"
             },
             {
-              "text": "Let your self-aware side let it shape a careful plan instead of accepting the first powerful shortcut.",
+              "text": "Let the possibility change your plan only after you decide what you are willing to risk.",
               "result": "hanged-man"
             },
             {
-              "text": "Let your perceptive side look for the overlooked pattern before deciding what the story means.",
+              "text": "Check the overlooked detail before deciding what the story means.",
               "result": "demoness"
             },
             {
-              "text": "Let your catalytic side ask what the situation is hiding before trusting its most convenient version.",
+              "text": "Ask what the convenient version leaves out, then test it against the evidence.",
               "result": "red-priest"
             }
           ]
@@ -1205,6 +1215,7 @@
       "results": [
         {
           "id": "fool",
+        "cardTreatment": "ribbon",
           "name": "The Fool Pathway",
           "archetype": "The one who always has another route",
           "description": "You keep more than one route, and more than one version of yourself, available. Uncertainty does not vanish around you; it becomes something you can use.",
@@ -1217,6 +1228,7 @@
         },
         {
           "id": "door",
+        "cardTreatment": "ledger",
           "name": "The Door Pathway",
           "archetype": "The curious threshold-crosser",
           "description": "You are drawn to routes, boundaries, and the answer waiting on the other side. You learn by going farther, while remembering how to return.",
@@ -1229,6 +1241,7 @@
         },
         {
           "id": "error",
+        "cardTreatment": "ticket",
           "name": "The Error Pathway",
           "archetype": "The loophole-finder",
           "description": "You notice the small inconsistency that changes the whole situation. Rules are information; the interesting question is where they leave room.",
@@ -1241,6 +1254,7 @@
         },
         {
           "id": "visionary",
+        "cardTreatment": "orbit",
           "name": "The Visionary Pathway",
           "archetype": "The person who sees what could be",
           "description": "You can see what a person or situation might become before it is obvious to anyone else. Your ideas change the shape of the room.",
@@ -1253,6 +1267,7 @@
         },
         {
           "id": "sun",
+        "cardTreatment": "frame",
           "name": "The Sun Pathway",
           "archetype": "The clarifier and protector",
           "description": "You bring light to confusion and prefer a truth that can be acted on. People trust you to make the important thing visible.",
@@ -1265,6 +1280,7 @@
         },
         {
           "id": "tyrant",
+        "cardTreatment": "seal",
           "name": "The Tyrant Pathway",
           "archetype": "The decisive helmsman",
           "description": "When a storm arrives, you would rather take the helm than debate the weather. You turn intensity into movement and protect your crew by acting.",
@@ -1277,6 +1293,7 @@
         },
         {
           "id": "white-tower",
+        "cardTreatment": "ribbon",
           "name": "The White Tower Pathway",
           "archetype": "The precise investigator",
           "description": "You want to understand the mechanism before touching the lever. Careful observation is not hesitation when it prevents a larger mistake.",
@@ -1289,6 +1306,7 @@
         },
         {
           "id": "hanged-man",
+        "cardTreatment": "ledger",
           "name": "The Hanged Man Pathway",
           "archetype": "The patient deep-diver",
           "description": "You can endure the uncomfortable part long enough to learn what it is asking of you. You see value in restraint, depth, and difficult perspective.",
@@ -1301,6 +1319,7 @@
         },
         {
           "id": "demoness",
+        "cardTreatment": "ticket",
           "name": "The Demoness Pathway",
           "archetype": "The social weather-reader",
           "description": "You read emotional weather and understand that identity is never as fixed as it pretends to be. Your power is noticing what others avoid naming.",
@@ -1313,6 +1332,7 @@
         },
         {
           "id": "red-priest",
+        "cardTreatment": "orbit",
           "name": "The Red Priest Pathway",
           "archetype": "The catalytic challenger",
           "description": "You come alive when a stagnant situation needs heat. You enter the conflict, change the terms, and make a new route through it.",
@@ -1323,7 +1343,11 @@
             "Unflinching"
           ]
         }
-      ]
+      ],
+      "kind": "Pathway sorting",
+      "title": "Which Pathway would draw you in?",
+      "intro": "Compare your appetite for evidence, change, influence, and the unknown with ten Lord of the Mysteries Pathways.",
+      "spoilerNote": "Lore note: Includes Pathway names and mystical terms. Major plot turns are left out."
     },
     "house-sorting": {
       "id": "house-sorting",
@@ -1526,7 +1550,7 @@
               "result": "ravenclaw"
             },
             {
-              "text": "Find the leverage to change the terms before committing.",
+              "text": "Find a way to change the terms before committing.",
               "result": "slytherin"
             }
           ]
@@ -1555,44 +1579,44 @@
         },
         {
           "category": "The magical contract / deep dive",
-          "text": "A powerful magical contract would solve the immediate crisis, but one clause quietly limits another person’s freedom. What do you do before anyone signs?",
+          "text": "A school pact would keep everyone safe, but it gives one student no right to refuse. What should happen before it is signed?",
           "answers": [
             {
-              "text": "Trust your brave side and turn that quality into a protective action, even if it makes the choice harder.",
+              "text": "Take the risk yourself if it keeps someone else from paying the price.",
               "result": "gryffindor"
             },
             {
-              "text": "Trust your fair side and make room for the people affected, not just the people with authority.",
+              "text": "Give the people affected a say before anyone in power decides.",
               "result": "hufflepuff"
             },
             {
-              "text": "Trust your thoughtful side and stay beside the person carrying the emotional cost after the public decision.",
+              "text": "Stay with the person who will carry the cost after the decision.",
               "result": "ravenclaw"
             },
             {
-              "text": "Trust your adaptable side and use an unexpected angle that gives the group a second route forward.",
+              "text": "Find a route the crisis has not closed yet.",
               "result": "slytherin"
             }
           ]
         },
         {
           "category": "The hearing at Hogwarts / deep dive",
-          "text": "During a tense hearing, the official story is tidy, the evidence is incomplete, and a frightened student is being blamed. Which instinct guides your next move?",
+          "text": "At a Hogwarts hearing, the rules favor the people in charge and the evidence is thin. What should guide the next move?",
           "answers": [
             {
-              "text": "Let your brave side test the idea against its consequences before calling it clever.",
+              "text": "Count who pays for the shortcut before calling it clever.",
               "result": "gryffindor"
             },
             {
-              "text": "Let your fair side learn enough to act without turning knowledge into another form of control.",
+              "text": "Learn what the knowledge lets you control before you use it.",
               "result": "hufflepuff"
             },
             {
-              "text": "Let your thoughtful side keep the useful lesson while refusing to inherit the damage.",
+              "text": "Keep the lesson and stop the harm becoming someone else’s inheritance.",
               "result": "ravenclaw"
             },
             {
-              "text": "Let your adaptable side protect the future people who were not in the room cannot yet see.",
+              "text": "Ask what this choice means for people who cannot speak in the room.",
               "result": "slytherin"
             }
           ]
@@ -1601,6 +1625,7 @@
       "results": [
         {
           "id": "gryffindor",
+        "cardTreatment": "ticket",
           "name": "Gryffindor",
           "archetype": "Courage & initiative",
           "description": "You are willing to act when people or principles need defending. Courage does not mean being fearless; it means refusing to let fear make every decision. You are also willing to challenge a celebrated plan when its cost is being quietly pushed onto someone with less power.",
@@ -1614,6 +1639,7 @@
         },
         {
           "id": "hufflepuff",
+        "cardTreatment": "orbit",
           "name": "Hufflepuff",
           "archetype": "Fairness & follow-through",
           "description": "You help people feel valued and build trust through steady effort. You notice who is carrying the hidden cost, then stay for the unglamorous work of repair. Your loyalty is strongest when it makes the group more accountable, not merely more comfortable.",
@@ -1627,6 +1653,7 @@
         },
         {
           "id": "ravenclaw",
+        "cardTreatment": "frame",
           "name": "Ravenclaw",
           "archetype": "Curiosity & originality",
           "description": "You ask useful questions, see patterns, and make room for fresh ideas. When a group gets attached to a success story, you are willing to inspect the assumptions underneath it and ask what the evidence says now.",
@@ -1640,6 +1667,7 @@
         },
         {
           "id": "slytherin",
+        "cardTreatment": "seal",
           "name": "Slytherin",
           "archetype": "Ambition & resourcefulness",
           "description": "You keep a goal in view and adapt the route to make meaningful progress. You understand that influence is most useful when it changes the terms of the game, not just when it helps your side win the current round.",
@@ -1651,7 +1679,11 @@
             "Ambitious"
           ]
         }
-      ]
+      ],
+      "kind": "House sorting",
+      "title": "Which Hogwarts house fits your values?",
+      "intro": "Sort by the choices you make when fairness, nerve, curiosity, and loyalty pull in different directions.",
+      "spoilerNote": "Lore note: Uses Hogwarts house names and school magic. Major plot turns are left out."
     },
     "lord-of-the-rings-character-match": {
       "id": "lord-of-the-rings-character-match",
@@ -1740,7 +1772,7 @@
           ]
         },
         {
-          "category": "A powerful temptation",
+          "category": "The tempting offer",
           "text": "You are offered a shortcut to the outcome you want. What makes you hesitate?",
           "answers": [
             {
@@ -1897,7 +1929,7 @@
         },
         {
           "category": "The awkward alliance / bonus",
-          "text": "A powerful ally wants your loyalty but asks you to stop questioning their methods. What do you do?",
+          "text": "An ally with authority wants your loyalty but asks you to stop questioning their methods. What do you do?",
           "answers": [
             {
               "text": "Keep my conscience active, even if the alliance becomes more difficult.",
@@ -1923,22 +1955,22 @@
         },
         {
           "category": "The burden at the crossroads / deep dive",
-          "text": "An ancient artifact could end the journey quickly, but carrying it would make one companion responsible for every consequence. What matters most before you decide?",
+          "text": "A relic could shorten the road, but it would leave one companion to bear its cost. What matters before you choose?",
           "answers": [
             {
-              "text": "Trust your brave side and turn that quality into a protective action, even if it makes the choice harder.",
+              "text": "Take the risk yourself if it keeps someone else from paying the price.",
               "result": "frodo"
             },
             {
-              "text": "Trust your protective side and make room for the people affected, not just the people with authority.",
+              "text": "Give the people affected a say before anyone in power decides.",
               "result": "aragorn"
             },
             {
-              "text": "Trust your caring side and stay beside the person carrying the emotional cost after the public decision.",
+              "text": "Stay with the person who will carry the cost after the decision.",
               "result": "samwise"
             },
             {
-              "text": "Trust your patient side and use an unexpected angle that gives the group a second route forward.",
+              "text": "Find a route the crisis has not closed yet.",
               "result": "gandalf"
             },
             {
@@ -1949,26 +1981,26 @@
         },
         {
           "category": "The song after the war / deep dive",
-          "text": "Years after the danger ends, the songs celebrate the victory but leave out the quiet people who made it possible. How should the story be remembered?",
+          "text": "The songs praise the leaders after the battle and omit the people who carried the company. How should the tale be told?",
           "answers": [
             {
-              "text": "Let your brave side test the idea against its consequences before calling it clever.",
+              "text": "Count who pays for the shortcut before calling it clever.",
               "result": "frodo"
             },
             {
-              "text": "Let your protective side learn enough to act without turning knowledge into another form of control.",
+              "text": "Learn what the knowledge lets you control before you use it.",
               "result": "aragorn"
             },
             {
-              "text": "Let your caring side keep the useful lesson while refusing to inherit the damage.",
+              "text": "Keep the lesson and stop the harm becoming someone else’s inheritance.",
               "result": "samwise"
             },
             {
-              "text": "Let your patient side protect the future people who were not in the room cannot yet see.",
+              "text": "Ask what this choice means for people who cannot speak in the room.",
               "result": "gandalf"
             },
             {
-              "text": "Let your compassionate side leave an escape route in case your certainty is wrong.",
+              "text": "Keep a way to change course if your facts are wrong.",
               "result": "eowyn"
             }
           ]
@@ -1977,6 +2009,7 @@
       "results": [
         {
           "id": "frodo",
+        "cardTreatment": "ticket",
           "name": "Frodo Baggins",
           "archetype": "The one who keeps going",
           "description": "You can carry a hard job without pretending it is easy. You keep an eye on what the mission is doing to people, including you, and that honesty is a big part of your courage.",
@@ -1990,6 +2023,7 @@
         },
         {
           "id": "aragorn",
+        "cardTreatment": "orbit",
           "name": "Aragorn",
           "archetype": "The one people can follow",
           "description": "You do not need a crown to act like a leader. You step forward when people need direction, but you never forget that protecting people is different from owning them.",
@@ -2003,6 +2037,7 @@
         },
         {
           "id": "samwise",
+        "cardTreatment": "frame",
           "name": "Samwise Gamgee",
           "archetype": "The friend who stays",
           "description": "You make care practical. You remember the food, the small jobs, and the person who is running out of hope. People keep going because you keep showing up.",
@@ -2016,6 +2051,7 @@
         },
         {
           "id": "gandalf",
+        "cardTreatment": "seal",
           "name": "Gandalf",
           "archetype": "The one who sees the bigger picture",
           "description": "You look for the pattern underneath the mess, and you are suspicious of answers that arrive too neatly. You know when to guide, when to wait, and when someone needs to be challenged.",
@@ -2029,6 +2065,7 @@
         },
         {
           "id": "eowyn",
+        "cardTreatment": "ribbon",
           "name": "Éowyn",
           "archetype": "The one who refuses the box",
           "description": "You refuse to let an old expectation decide what you are allowed to do. You want a life you chose yourself, and you are ready to act when everyone else says to stand back.",
@@ -2040,7 +2077,11 @@
             "Compassionate"
           ]
         }
-      ]
+      ],
+      "kind": "Character match",
+      "title": "Who would you be on the long road?",
+      "intro": "Find the Middle-earth companion whose way of carrying danger and care most resembles yours.",
+      "spoilerNote": "Lore note: Uses Middle-earth places and objects. Major plot turns are left out."
     },
     "marvel-character-match": {
       "id": "marvel-character-match",
@@ -2312,22 +2353,22 @@
         },
         {
           "category": "The city-scale crisis / deep dive",
-          "text": "You can stop the visible disaster now, or spend precious time exposing the system that will cause the next one. How do you balance rescue and responsibility?",
+          "text": "A city is in immediate danger, and the same system will cause another crisis if left alone. How do you divide your effort?",
           "answers": [
             {
-              "text": "Trust your caring side and turn that quality into a protective action, even if it makes the choice harder.",
+              "text": "Take the risk yourself if it keeps someone else from paying the price.",
               "result": "spider-man"
             },
             {
-              "text": "Trust your driven side and make room for the people affected, not just the people with authority.",
+              "text": "Give the people affected a say before anyone in power decides.",
               "result": "iron-man"
             },
             {
-              "text": "Trust your loyal side and stay beside the person carrying the emotional cost after the public decision.",
+              "text": "Stay with the person who will carry the cost after the decision.",
               "result": "captain-america"
             },
             {
-              "text": "Trust your visionary side and use an unexpected angle that gives the group a second route forward.",
+              "text": "Find a route the crisis has not closed yet.",
               "result": "black-panther"
             },
             {
@@ -2338,26 +2379,26 @@
         },
         {
           "category": "The team debrief / deep dive",
-          "text": "The mission succeeds, but your improvisation created a risk that another hero quietly absorbed. What does accountability look like after the applause?",
+          "text": "The mission succeeds, but your improvisation put another hero at risk. What do you owe the team after the rescue?",
           "answers": [
             {
-              "text": "Let your caring side test the idea against its consequences before calling it clever.",
+              "text": "Count who pays for the shortcut before calling it clever.",
               "result": "spider-man"
             },
             {
-              "text": "Let your driven side learn enough to act without turning knowledge into another form of control.",
+              "text": "Learn what the knowledge lets you control before you use it.",
               "result": "iron-man"
             },
             {
-              "text": "Let your loyal side keep the useful lesson while refusing to inherit the damage.",
+              "text": "Keep the lesson and stop the harm becoming someone else’s inheritance.",
               "result": "captain-america"
             },
             {
-              "text": "Let your visionary side protect the future people who were not in the room cannot yet see.",
+              "text": "Ask what this choice means for people who cannot speak in the room.",
               "result": "black-panther"
             },
             {
-              "text": "Let your reflective side leave an escape route in case your certainty is wrong.",
+              "text": "Keep a way to change course if your facts are wrong.",
               "result": "wanda"
             }
           ]
@@ -2366,6 +2407,7 @@
       "results": [
         {
           "id": "spider-man",
+        "cardTreatment": "frame",
           "name": "Spider-Man",
           "archetype": "The quick-witted helper",
           "description": "You notice the person who needs help, even when the problem is far above your pay grade. Your humor keeps fear from taking over, and your sense of responsibility keeps you moving. If the easy answer would take someone else’s choice away, you keep looking for the harder, kinder third option.",
@@ -2379,6 +2421,7 @@
         },
         {
           "id": "iron-man",
+        "cardTreatment": "seal",
           "name": "Iron Man",
           "archetype": "The inventive problem-solver",
           "description": "You meet danger with an idea, a tool, or a version of yourself that is still under construction. Your sharper edge is learning that building a solution also means owning its consequences, exposing the failure, and improving the safeguards.",
@@ -2392,6 +2435,7 @@
         },
         {
           "id": "captain-america",
+        "cardTreatment": "ribbon",
           "name": "Captain America",
           "archetype": "The principled shield",
           "description": "You keep your values visible when the room gets loud. You will protect people without pretending a victory makes every compromise acceptable. Your strength is conviction with enough humility to revise your view when the evidence demands it.",
@@ -2405,6 +2449,7 @@
         },
         {
           "id": "black-panther",
+        "cardTreatment": "ledger",
           "name": "Black Panther",
           "archetype": "The thoughtful leader",
           "description": "You think past the immediate win. You listen to the people who will live with the decision, weigh the wider consequences, and use influence to make more room for others instead of less.",
@@ -2418,18 +2463,23 @@
         },
         {
           "id": "wanda",
+        "cardTreatment": "ticket",
           "name": "Wanda Maximoff",
           "archetype": "The person who feels everything",
           "description": "You feel things intensely, and that can make you unusually perceptive. You also know the hard part: pain can explain a choice without making the fallout disappear. You are strongest when you face both sides honestly.",
           "traits": [
             "Intuitive",
-            "Powerful",
+            "Determined",
             "Imaginative",
             "Intense",
             "Reflective"
           ]
         }
-      ]
+      ],
+      "kind": "Character match",
+      "title": "Which Marvel hero shares your instincts?",
+      "intro": "Find the hero whose way of helping when it counts and owning the consequences fits you.",
+      "spoilerNote": "Lore note: Uses broad superhero themes. Major plot turns are left out."
     },
     "disney-character-match": {
       "id": "disney-character-match",
@@ -2649,22 +2699,22 @@
         },
         {
           "category": "The wish with fine print / deep dive",
-          "text": "A magical bargain can give you the dream you want, but it also freezes one part of your life in the version that made the dream possible. What do you protect?",
+          "text": "A wish could give you the future you want, but it would keep you bound to the person you are today. What do you protect?",
           "answers": [
             {
-              "text": "Trust your curious side and turn that quality into a protective action, even if it makes the choice harder.",
+              "text": "Take the risk yourself if it keeps someone else from paying the price.",
               "result": "alice"
             },
             {
-              "text": "Trust your adaptable side and make room for the people affected, not just the people with authority.",
+              "text": "Give the people affected a say before anyone in power decides.",
               "result": "mulan"
             },
             {
-              "text": "Trust your independent side and stay beside the person carrying the emotional cost after the public decision.",
+              "text": "Stay with the person who will carry the cost after the decision.",
               "result": "belle"
             },
             {
-              "text": "Trust your practical side and use an unexpected angle that gives the group a second route forward.",
+              "text": "Find a route the crisis has not closed yet.",
               "result": "tiana"
             },
             {
@@ -2675,26 +2725,26 @@
         },
         {
           "category": "The storybook revision / deep dive",
-          "text": "A storyteller offers to remove the painful chapter from your tale. The ending would be happier, but the people you became through that chapter would not exist. What do you choose?",
+          "text": "A storyteller offers to erase the hard chapter. The ending becomes easier, but it changes who you became. What do you choose?",
           "answers": [
             {
-              "text": "Let your curious side test the idea against its consequences before calling it clever.",
+              "text": "Count who pays for the shortcut before calling it clever.",
               "result": "alice"
             },
             {
-              "text": "Let your adaptable side learn enough to act without turning knowledge into another form of control.",
+              "text": "Learn what the knowledge lets you control before you use it.",
               "result": "mulan"
             },
             {
-              "text": "Let your independent side keep the useful lesson while refusing to inherit the damage.",
+              "text": "Keep the lesson and stop the harm becoming someone else’s inheritance.",
               "result": "belle"
             },
             {
-              "text": "Let your practical side protect the future people who were not in the room cannot yet see.",
+              "text": "Ask what this choice means for people who cannot speak in the room.",
               "result": "tiana"
             },
             {
-              "text": "Let your playful side leave an escape route in case your certainty is wrong.",
+              "text": "Keep a way to change course if your facts are wrong.",
               "result": "stitch"
             }
           ]
@@ -2703,6 +2753,7 @@
       "results": [
         {
           "id": "alice",
+        "cardTreatment": "seal",
           "name": "Alice",
           "archetype": "The curious wayfinder",
           "description": "You meet the strange with questions instead of a script. Your imagination is not an escape from reality; it is how you notice that reality can be rearranged.",
@@ -2715,6 +2766,7 @@
         },
         {
           "id": "mulan",
+        "cardTreatment": "ribbon",
           "name": "Mulan",
           "archetype": "The adaptable protector",
           "description": "You do not wait to feel perfectly ready. You learn, adapt, and step up when people need you, even when an old expectation says you should stay in your lane.",
@@ -2727,6 +2779,7 @@
         },
         {
           "id": "belle",
+        "cardTreatment": "ledger",
           "name": "Belle",
           "archetype": "The thoughtful outsider",
           "description": "You look past the obvious story. Curiosity, compassion, and a strong inner life help you find connection without surrendering your independence.",
@@ -2739,6 +2792,7 @@
         },
         {
           "id": "tiana",
+        "cardTreatment": "ticket",
           "name": "Tiana",
           "archetype": "The determined builder",
           "description": "You honor dreams by giving them structure. Your ambition is practical, generous, and powered by the belief that good work can create a place for more people.",
@@ -2751,6 +2805,7 @@
         },
         {
           "id": "stitch",
+        "cardTreatment": "orbit",
           "name": "Stitch",
           "archetype": "The chaotic-hearted loyalist",
           "description": "You may arrive with a little disruption, but your loyalty is unmistakable. Once you know where home is, you protect it with your whole unusual heart.",
@@ -2761,7 +2816,11 @@
             "Affectionate"
           ]
         }
-      ]
+      ],
+      "kind": "Character match",
+      "title": "Which Disney character fits your outlook?",
+      "intro": "Follow what you do when a plan changes and you have to choose which dream to keep.",
+      "spoilerNote": "Lore note: Uses broad storybook themes. Major plot turns are left out."
     },
     "star-wars-character-match": {
       "id": "star-wars-character-match",
@@ -3033,22 +3092,22 @@
         },
         {
           "category": "The contested legacy / deep dive",
-          "text": "A revered tradition could unite the galaxy, but only if everyone agrees to inherit its old hierarchy. When do you preserve a legacy and when do you break it?",
+          "text": "A respected Jedi tradition offers order but leaves some people without a voice. What would you carry forward?",
           "answers": [
             {
-              "text": "Trust your hopeful side and turn that quality into a protective action, even if it makes the choice harder.",
+              "text": "Take the risk yourself if it keeps someone else from paying the price.",
               "result": "luke"
             },
             {
-              "text": "Trust your principled side and make room for the people affected, not just the people with authority.",
+              "text": "Give the people affected a say before anyone in power decides.",
               "result": "leia"
             },
             {
-              "text": "Trust your bold side and stay beside the person carrying the emotional cost after the public decision.",
+              "text": "Stay with the person who will carry the cost after the decision.",
               "result": "han"
             },
             {
-              "text": "Trust your empathetic side and use an unexpected angle that gives the group a second route forward.",
+              "text": "Find a route the crisis has not closed yet.",
               "result": "rey"
             },
             {
@@ -3059,26 +3118,26 @@
         },
         {
           "category": "The difficult alliance / deep dive",
-          "text": "An opponent offers a real chance to stop a larger threat, but the alliance may make your friends doubt what you stand for. What must be true before you act?",
+          "text": "An uneasy alliance could stop a larger threat, but it may cost your crew’s trust. What must the agreement protect?",
           "answers": [
             {
-              "text": "Let your hopeful side test the idea against its consequences before calling it clever.",
+              "text": "Count who pays for the shortcut before calling it clever.",
               "result": "luke"
             },
             {
-              "text": "Let your principled side learn enough to act without turning knowledge into another form of control.",
+              "text": "Learn what the knowledge lets you control before you use it.",
               "result": "leia"
             },
             {
-              "text": "Let your bold side keep the useful lesson while refusing to inherit the damage.",
+              "text": "Keep the lesson and stop the harm becoming someone else’s inheritance.",
               "result": "han"
             },
             {
-              "text": "Let your empathetic side protect the future people who were not in the room cannot yet see.",
+              "text": "Ask what this choice means for people who cannot speak in the room.",
               "result": "rey"
             },
             {
-              "text": "Let your mentoring side leave an escape route in case your certainty is wrong.",
+              "text": "Keep a way to change course if your facts are wrong.",
               "result": "ahsoka"
             }
           ]
@@ -3087,6 +3146,7 @@
       "results": [
         {
           "id": "luke",
+        "cardTreatment": "ledger",
           "name": "Luke Skywalker",
           "archetype": "The hopeful learner",
           "description": "You believe people are more than the worst thing they have done. You keep learning, keep hoping, and still pay attention to the consequences. For you, a second chance has to turn into better choices.",
@@ -3100,6 +3160,7 @@
         },
         {
           "id": "leia",
+        "cardTreatment": "ticket",
           "name": "Leia Organa",
           "archetype": "The commanding idealist",
           "description": "You turn strong opinions into useful action. You can be direct because the stakes are real, but you are not interested in power for its own sake. You want the plan to protect people after the speech is over.",
@@ -3113,6 +3174,7 @@
         },
         {
           "id": "han",
+        "cardTreatment": "orbit",
           "name": "Han Solo",
           "archetype": "The reluctant risk-taker",
           "description": "You trust your instincts, your people, and a plan that can be improvised mid-flight. You have no patience for grand speeches or fuzzy promises. Give you a clear deal and someone worth protecting, and you will take the ridiculous route anyway.",
@@ -3126,6 +3188,7 @@
         },
         {
           "id": "rey",
+        "cardTreatment": "frame",
           "name": "Rey",
           "archetype": "The one who chooses their own path",
           "description": "You work out who you are by what you do next. You can face the unknown, learn as you go, and still make room for other people. A label may be part of your story, but it does not get to write the ending.",
@@ -3139,6 +3202,7 @@
         },
         {
           "id": "ahsoka",
+        "cardTreatment": "seal",
           "name": "Ahsoka Tano",
           "archetype": "The guide who asks questions",
           "description": "You learn the rules, then ask whether they still deserve your trust. You can walk away from an institution without walking away from people, and you would rather help someone think than tell them what to think.",
@@ -3150,7 +3214,11 @@
             "Mentoring"
           ]
         }
-      ]
+      ],
+      "kind": "Character match",
+      "title": "Which Star Wars character shares your compass?",
+      "intro": "See how you respond when your cause and the people beside you ask for different things.",
+      "spoilerNote": "Lore note: Uses Jedi and galactic themes. Major plot turns are left out."
     },
     "stranger-things-character-match": {
       "id": "stranger-things-character-match",
@@ -3243,7 +3311,7 @@
           "text": "Which part of a mystery hooks you first?",
           "answers": [
             {
-              "text": "The feeling that something powerful is hiding underneath it.",
+              "text": "The feeling that something dangerous is hiding underneath it.",
               "result": "eleven"
             },
             {
@@ -3370,22 +3438,22 @@
         },
         {
           "category": "The official explanation / deep dive",
-          "text": "The town finally accepts an explanation that keeps everyone calm, but one missing detail suggests someone is still in danger. Do you reopen the case?",
+          "text": "Hawkins accepts an explanation that keeps people calm, but one clue says someone is still in danger. What do you do?",
           "answers": [
             {
-              "text": "Trust your protective side and turn that quality into a protective action, even if it makes the choice harder.",
+              "text": "Take the risk yourself if it keeps someone else from paying the price.",
               "result": "eleven"
             },
             {
-              "text": "Trust your inventive side and make room for the people affected, not just the people with authority.",
+              "text": "Give the people affected a say before anyone in power decides.",
               "result": "dustin"
             },
             {
-              "text": "Trust your dependable side and stay beside the person carrying the emotional cost after the public decision.",
+              "text": "Stay with the person who will carry the cost after the decision.",
               "result": "steve"
             },
             {
-              "text": "Trust your focused side and use an unexpected angle that gives the group a second route forward.",
+              "text": "Find a route the crisis has not closed yet.",
               "result": "nancy"
             },
             {
@@ -3396,26 +3464,26 @@
         },
         {
           "category": "The door in the wall / deep dive",
-          "text": "You find a way to close the strange door, but doing so may strand someone on the other side. How do you make the choice?",
+          "text": "A strange doorway can be closed, but someone may still be on the other side. How do you decide what to do?",
           "answers": [
             {
-              "text": "Let your protective side test the idea against its consequences before calling it clever.",
+              "text": "Count who pays for the shortcut before calling it clever.",
               "result": "eleven"
             },
             {
-              "text": "Let your inventive side learn enough to act without turning knowledge into another form of control.",
+              "text": "Learn what the knowledge lets you control before you use it.",
               "result": "dustin"
             },
             {
-              "text": "Let your dependable side keep the useful lesson while refusing to inherit the damage.",
+              "text": "Keep the lesson and stop the harm becoming someone else’s inheritance.",
               "result": "steve"
             },
             {
-              "text": "Let your focused side protect the future people who were not in the room cannot yet see.",
+              "text": "Ask what this choice means for people who cannot speak in the room.",
               "result": "nancy"
             },
             {
-              "text": "Let your clever side leave an escape route in case your certainty is wrong.",
+              "text": "Keep a way to change course if your facts are wrong.",
               "result": "robin"
             }
           ]
@@ -3424,6 +3492,7 @@
       "results": [
         {
           "id": "eleven",
+        "cardTreatment": "orbit",
           "name": "Eleven",
           "archetype": "The fiercely protective force",
           "description": "You feel deeply and protect fiercely. Your strength is not only power; it is the choice to keep learning who you are beyond what others tried to make you.",
@@ -3436,6 +3505,7 @@
         },
         {
           "id": "dustin",
+        "cardTreatment": "frame",
           "name": "Dustin Henderson",
           "archetype": "The inventive theorist",
           "description": "You meet the impossible with a theory, a joke, and a surprisingly useful amount of preparation. Curiosity is your way of keeping the group brave.",
@@ -3448,6 +3518,7 @@
         },
         {
           "id": "steve",
+        "cardTreatment": "seal",
           "name": "Steve Harrington",
           "archetype": "The dependable protector",
           "description": "You may not have asked to be in charge, but you keep showing up with practical courage. People trust you because your care becomes action.",
@@ -3460,6 +3531,7 @@
         },
         {
           "id": "nancy",
+        "cardTreatment": "ribbon",
           "name": "Nancy Wheeler",
           "archetype": "The determined investigator",
           "description": "You do not let a convenient story close the case. Persistence, courage, and attention to evidence help you turn questions into action.",
@@ -3472,6 +3544,7 @@
         },
         {
           "id": "robin",
+        "cardTreatment": "ledger",
           "name": "Robin Buckley",
           "archetype": "The brilliant pattern-breaker",
           "description": "Your mind makes connections at a delightfully inconvenient speed. You bring honesty, humor, and a refusal to sand down the parts of yourself that are genuinely original.",
@@ -3482,7 +3555,11 @@
             "Quick-witted"
           ]
         }
-      ]
+      ],
+      "kind": "Character match",
+      "title": "Who would you be in Hawkins?",
+      "intro": "Find the character whose instinct to follow strange clues until the case makes sense.",
+      "spoilerNote": "Lore note: Uses Hawkins and supernatural themes. Major plot turns are left out."
     },
     "hunger-games-character-match": {
       "id": "hunger-games-character-match",
@@ -3505,7 +3582,7 @@
               "result": "peeta"
             },
             {
-              "text": "Information, leverage, and a plan for the next turn.",
+              "text": "Information, options, and a plan for the next turn.",
               "result": "haymitch"
             },
             {
@@ -3702,22 +3779,22 @@
         },
         {
           "category": "The perfect symbol / deep dive",
-          "text": "The resistance can turn one person into a powerful public symbol, but the performance may erase their private choices. What matters before the image is used?",
+          "text": "The resistance can make one person a symbol, but the story may bury that person’s own choices. What comes first?",
           "answers": [
             {
-              "text": "Trust your protective side and turn that quality into a protective action, even if it makes the choice harder.",
+              "text": "Take the risk yourself if it keeps someone else from paying the price.",
               "result": "katniss"
             },
             {
-              "text": "Trust your creative side and make room for the people affected, not just the people with authority.",
+              "text": "Give the people affected a say before anyone in power decides.",
               "result": "peeta"
             },
             {
-              "text": "Trust your resourceful side and stay beside the person carrying the emotional cost after the public decision.",
+              "text": "Stay with the person who will carry the cost after the decision.",
               "result": "haymitch"
             },
             {
-              "text": "Trust your loyal side and use an unexpected angle that gives the group a second route forward.",
+              "text": "Find a route the crisis has not closed yet.",
               "result": "finnick"
             },
             {
@@ -3728,26 +3805,26 @@
         },
         {
           "category": "The ceasefire bargain / deep dive",
-          "text": "An official offers a ceasefire that would save lives now but leave the machinery of control intact. How do you judge the bargain?",
+          "text": "A ceasefire would save lives while leaving the Capitol’s machinery in place. How do you judge the terms?",
           "answers": [
             {
-              "text": "Let your protective side test the idea against its consequences before calling it clever.",
+              "text": "Count who pays for the shortcut before calling it clever.",
               "result": "katniss"
             },
             {
-              "text": "Let your creative side learn enough to act without turning knowledge into another form of control.",
+              "text": "Learn what the knowledge lets you control before you use it.",
               "result": "peeta"
             },
             {
-              "text": "Let your resourceful side keep the useful lesson while refusing to inherit the damage.",
+              "text": "Keep the lesson and stop the harm becoming someone else’s inheritance.",
               "result": "haymitch"
             },
             {
-              "text": "Let your loyal side protect the future people who were not in the room cannot yet see.",
+              "text": "Ask what this choice means for people who cannot speak in the room.",
               "result": "finnick"
             },
             {
-              "text": "Let your independent side leave an escape route in case your certainty is wrong.",
+              "text": "Keep a way to change course if your facts are wrong.",
               "result": "johanna"
             }
           ]
@@ -3756,6 +3833,7 @@
       "results": [
         {
           "id": "katniss",
+        "cardTreatment": "frame",
           "name": "Katniss Everdeen",
           "archetype": "The protective survivor",
           "description": "You are alert to danger, fiercely protective, and more willing to act than to perform. Your care is practical: you notice what people need and move toward it.",
@@ -3768,6 +3846,7 @@
         },
         {
           "id": "peeta",
+        "cardTreatment": "seal",
           "name": "Peeta Mellark",
           "archetype": "The humane idealist",
           "description": "You understand that survival without humanity is its own kind of loss. Your strength is the ability to keep empathy and imagination alive under pressure.",
@@ -3780,9 +3859,10 @@
         },
         {
           "id": "haymitch",
+        "cardTreatment": "ribbon",
           "name": "Haymitch Abernathy",
           "archetype": "The sharp strategist",
-          "description": "You see the machinery behind the spectacle. Experience has made you wary, but it has also made you good at finding the leverage that gives people a chance.",
+          "description": "You see the machinery behind the spectacle. Experience has made you wary, and it has taught you to spot an opening that gives people a chance.",
           "traits": [
             "Strategic",
             "Perceptive",
@@ -3792,9 +3872,10 @@
         },
         {
           "id": "finnick",
+        "cardTreatment": "ledger",
           "name": "Finnick Odair",
           "archetype": "The socially skilled survivor",
-          "description": "You read a room quickly and understand that charm can be armor, leverage, or a bridge. Beneath the polish is careful loyalty and real courage.",
+          "description": "You read a room quickly and understand that charm can protect you without giving away your whole hand. Beneath the polish is careful loyalty and real courage.",
           "traits": [
             "Charismatic",
             "Observant",
@@ -3804,6 +3885,7 @@
         },
         {
           "id": "johanna",
+        "cardTreatment": "ticket",
           "name": "Johanna Mason",
           "archetype": "The fiercely independent challenger",
           "description": "You refuse to make yourself comfortable for someone else’s approval. Your bluntness protects a strong instinct for freedom and a deep intolerance of control.",
@@ -3814,7 +3896,11 @@
             "Resilient"
           ]
         }
-      ]
+      ],
+      "kind": "Character match",
+      "title": "Who would you be in Panem?",
+      "intro": "See how you survive while keeping the principles you refuse to trade.",
+      "spoilerNote": "Lore note: Uses arena and resistance themes. Major plot turns are left out."
     },
     "wizarding-world-spellcraft-style": {
       "id": "wizarding-world-spellcraft-style",
@@ -4002,44 +4088,44 @@
         },
         {
           "category": "The magical contract / deep dive",
-          "text": "A powerful magical contract would solve the immediate crisis, but one clause quietly limits another person’s freedom. What do you do before anyone signs?",
+          "text": "A spell can stop the danger, but its binding clause removes another person’s choice. What do you inspect before casting?",
           "answers": [
             {
-              "text": "Trust your brave side and turn that quality into a protective action, even if it makes the choice harder.",
+              "text": "Take the risk yourself if it keeps someone else from paying the price.",
               "result": "gryffindor"
             },
             {
-              "text": "Trust your analytical side and make room for the people affected, not just the people with authority.",
+              "text": "Give the people affected a say before anyone in power decides.",
               "result": "ravenclaw"
             },
             {
-              "text": "Trust your grounded side and stay beside the person carrying the emotional cost after the public decision.",
+              "text": "Stay with the person who will carry the cost after the decision.",
               "result": "hufflepuff"
             },
             {
-              "text": "Trust your unconventional side and use an unexpected angle that gives the group a second route forward.",
+              "text": "Find a route the crisis has not closed yet.",
               "result": "luna"
             }
           ]
         },
         {
           "category": "The hearing at Hogwarts / deep dive",
-          "text": "During a tense hearing, the official story is tidy, the evidence is incomplete, and a frightened student is being blamed. Which instinct guides your next move?",
+          "text": "A spellwork hearing blames a student before the evidence is complete. What do you verify before deciding what happened?",
           "answers": [
             {
-              "text": "Let your brave side test the idea against its consequences before calling it clever.",
+              "text": "Count who pays for the shortcut before calling it clever.",
               "result": "gryffindor"
             },
             {
-              "text": "Let your analytical side learn enough to act without turning knowledge into another form of control.",
+              "text": "Learn what the knowledge lets you control before you use it.",
               "result": "ravenclaw"
             },
             {
-              "text": "Let your grounded side keep the useful lesson while refusing to inherit the damage.",
+              "text": "Keep the lesson and stop the harm becoming someone else’s inheritance.",
               "result": "hufflepuff"
             },
             {
-              "text": "Let your unconventional side protect the future people who were not in the room cannot yet see.",
+              "text": "Ask what this choice means for people who cannot speak in the room.",
               "result": "luna"
             }
           ]
@@ -4048,6 +4134,7 @@
       "results": [
         {
           "id": "gryffindor",
+        "cardTreatment": "ticket",
           "name": "Gryffindor",
           "archetype": "The brave spark",
           "description": "You bring nerve, momentum, and a protective instinct to every challenge. Your best magic starts when someone needs a person willing to step forward.",
@@ -4060,6 +4147,7 @@
         },
         {
           "id": "ravenclaw",
+        "cardTreatment": "orbit",
           "name": "Ravenclaw",
           "archetype": "The curious architect",
           "description": "You want to understand the shape of a problem before you try to solve it. Knowledge becomes your most generous form of magic when you share it.",
@@ -4072,6 +4160,7 @@
         },
         {
           "id": "hufflepuff",
+        "cardTreatment": "frame",
           "name": "Hufflepuff",
           "archetype": "The steady hearth",
           "description": "You make difficult work feel possible because you bring patience, care, and a place for people to belong. Reliability is your quiet superpower.",
@@ -4084,6 +4173,7 @@
         },
         {
           "id": "luna",
+        "cardTreatment": "seal",
           "name": "Luna Lovegood",
           "archetype": "The sideways wonder",
           "description": "You notice the possibility hiding behind the ordinary answer. Your imagination gives other people permission to see the world with more room in it.",
@@ -4094,7 +4184,11 @@
             "Unconventional"
           ]
         }
-      ]
+      ],
+      "kind": "Spellcraft style",
+      "title": "How would you work magic?",
+      "intro": "Find the care and discipline you would bring to a difficult spell.",
+      "spoilerNote": "Lore note: Uses Hogwarts and magical terms. Major plot turns are left out."
     },
     "lord-of-the-rings-fellowship-role": {
       "id": "lord-of-the-rings-fellowship-role",
@@ -4282,44 +4376,44 @@
         },
         {
           "category": "The burden at the crossroads / deep dive",
-          "text": "An ancient artifact could end the journey quickly, but carrying it would make one companion responsible for every consequence. What matters most before you decide?",
+          "text": "A relic offers a faster road, but the burden would change the person carrying it. How do you decide whether to use it?",
           "answers": [
             {
-              "text": "Trust your conscientious side and turn that quality into a protective action, even if it makes the choice harder.",
+              "text": "Take the risk yourself if it keeps someone else from paying the price.",
               "result": "frodo"
             },
             {
-              "text": "Trust your courageous side and make room for the people affected, not just the people with authority.",
+              "text": "Give the people affected a say before anyone in power decides.",
               "result": "aragorn"
             },
             {
-              "text": "Trust your tender side and stay beside the person carrying the emotional cost after the public decision.",
+              "text": "Stay with the person who will carry the cost after the decision.",
               "result": "sam"
             },
             {
-              "text": "Trust your perceptive side and use an unexpected angle that gives the group a second route forward.",
+              "text": "Find a route the crisis has not closed yet.",
               "result": "gandalf"
             }
           ]
         },
         {
           "category": "The song after the war / deep dive",
-          "text": "Years after the danger ends, the songs celebrate the victory but leave out the quiet people who made it possible. How should the story be remembered?",
+          "text": "The company reaches home, but its songs leave out the quiet work that made the return possible. What should be remembered?",
           "answers": [
             {
-              "text": "Let your conscientious side test the idea against its consequences before calling it clever.",
+              "text": "Count who pays for the shortcut before calling it clever.",
               "result": "frodo"
             },
             {
-              "text": "Let your courageous side learn enough to act without turning knowledge into another form of control.",
+              "text": "Learn what the knowledge lets you control before you use it.",
               "result": "aragorn"
             },
             {
-              "text": "Let your tender side keep the useful lesson while refusing to inherit the damage.",
+              "text": "Keep the lesson and stop the harm becoming someone else’s inheritance.",
               "result": "sam"
             },
             {
-              "text": "Let your perceptive side protect the future people who were not in the room cannot yet see.",
+              "text": "Ask what this choice means for people who cannot speak in the room.",
               "result": "gandalf"
             }
           ]
@@ -4328,6 +4422,7 @@
       "results": [
         {
           "id": "frodo",
+        "cardTreatment": "orbit",
           "name": "Frodo Baggins",
           "archetype": "The burden-bearer",
           "description": "You can carry a difficult responsibility without confusing endurance with invulnerability. You keep asking what the cost means for everyone else.",
@@ -4340,6 +4435,7 @@
         },
         {
           "id": "aragorn",
+        "cardTreatment": "frame",
           "name": "Aragorn",
           "archetype": "The servant leader",
           "description": "You lead by making yourself useful. Your authority is strongest when it creates safety, direction, and room for other people to be brave.",
@@ -4352,6 +4448,7 @@
         },
         {
           "id": "sam",
+        "cardTreatment": "seal",
           "name": "Samwise Gamgee",
           "archetype": "The faithful companion",
           "description": "You turn loyalty into practical care. You notice what keeps people going, and you are willing to do the unglamorous work that makes hope believable.",
@@ -4364,6 +4461,7 @@
         },
         {
           "id": "gandalf",
+        "cardTreatment": "ribbon",
           "name": "Gandalf",
           "archetype": "The questioning guide",
           "description": "You bring perspective, challenge easy certainty, and know that wisdom is often a timely question rather than a grand answer.",
@@ -4374,7 +4472,11 @@
             "Perceptive"
           ]
         }
-      ]
+      ],
+      "kind": "Fellowship role",
+      "title": "What would you bring to the Fellowship?",
+      "intro": "Choose how you would guide, carry, steady, or protect a company on a difficult road.",
+      "spoilerNote": "Lore note: Uses Middle-earth places and objects. Major plot turns are left out."
     },
     "lord-of-the-mysteries-mystery-role": {
       "id": "lord-of-the-mysteries-mystery-role",
@@ -4445,7 +4547,7 @@
               "result": "visionary"
             },
             {
-              "text": "Check whether accepting it gives them leverage.",
+              "text": "Check whether accepting it gives them control.",
               "result": "error"
             }
           ]
@@ -4562,44 +4664,44 @@
         },
         {
           "category": "The sealed mystical artifact / deep dive",
-          "text": "A sealed artifact offers exactly the answer you need, but every use makes your identity easier for an unseen force to read. Which trade-off do you examine first?",
+          "text": "A sealed case file contains the answer you need, but opening it exposes who is asking. What do you investigate first?",
           "answers": [
             {
-              "text": "Trust your curious side and turn that quality into a protective action, even if it makes the choice harder.",
+              "text": "Take the risk yourself if it keeps someone else from paying the price.",
               "result": "door"
             },
             {
-              "text": "Trust your patient side and make room for the people affected, not just the people with authority.",
+              "text": "Give the people affected a say before anyone in power decides.",
               "result": "white-tower"
             },
             {
-              "text": "Trust your bold side and stay beside the person carrying the emotional cost after the public decision.",
+              "text": "Stay with the person who will carry the cost after the decision.",
               "result": "visionary"
             },
             {
-              "text": "Trust your strategic side and use an unexpected angle that gives the group a second route forward.",
+              "text": "Find a route the crisis has not closed yet.",
               "result": "error"
             }
           ]
         },
         {
           "category": "The Pathway crossroads / deep dive",
-          "text": "You discover that the safest Pathway choice preserves your current self while the more powerful one could change what you are capable of wanting. What decides your next step?",
+          "text": "A new Sequence promises power alongside a change you cannot fully predict. What would you need to know before advancing?",
           "answers": [
             {
-              "text": "Let your curious side test the idea against its consequences before calling it clever.",
+              "text": "Count who pays for the shortcut before calling it clever.",
               "result": "door"
             },
             {
-              "text": "Let your patient side learn enough to act without turning knowledge into another form of control.",
+              "text": "Learn what the knowledge lets you control before you use it.",
               "result": "white-tower"
             },
             {
-              "text": "Let your bold side keep the useful lesson while refusing to inherit the damage.",
+              "text": "Keep the lesson and stop the harm becoming someone else’s inheritance.",
               "result": "visionary"
             },
             {
-              "text": "Let your strategic side protect the future people who were not in the room cannot yet see.",
+              "text": "Ask what this choice means for people who cannot speak in the room.",
               "result": "error"
             }
           ]
@@ -4608,6 +4710,7 @@
       "results": [
         {
           "id": "door",
+        "cardTreatment": "ledger",
           "name": "The Door",
           "archetype": "The threshold seeker",
           "description": "You are drawn to what lies beyond the obvious boundary. Curiosity becomes useful when you pair it with a route home and a respect for what you do not yet understand.",
@@ -4620,6 +4723,7 @@
         },
         {
           "id": "white-tower",
+        "cardTreatment": "ticket",
           "name": "The White Tower",
           "archetype": "The evidence keeper",
           "description": "You want the pattern, the source, and the test. Your strength is turning mystery into understanding without losing sight of the people affected by the answer.",
@@ -4632,6 +4736,7 @@
         },
         {
           "id": "visionary",
+        "cardTreatment": "orbit",
           "name": "The Visionary",
           "archetype": "The possibility-maker",
           "description": "You see that the story can change before the evidence looks comfortable. You bring imagination, reframing, and a willingness to become different on purpose.",
@@ -4644,6 +4749,7 @@
         },
         {
           "id": "error",
+        "cardTreatment": "frame",
           "name": "The Error",
           "archetype": "The loophole finder",
           "description": "You notice the gap between the rule and the reality. You can use systems creatively, but your sharpest skill is knowing when cleverness needs an ethical boundary.",
@@ -4654,7 +4760,11 @@
             "Strategic"
           ]
         }
-      ]
+      ],
+      "kind": "Mystery role",
+      "title": "What role would you play in the Hidden City?",
+      "intro": "Choose how you would investigate a sealed file and decide whether a dangerous gift is worth accepting.",
+      "spoilerNote": "Lore note: Uses broad mystical terminology. Major plot turns are left out."
     },
     "marvel-team-role": {
       "id": "marvel-team-role",
@@ -4842,44 +4952,44 @@
         },
         {
           "category": "The city-scale crisis / deep dive",
-          "text": "You can stop the visible disaster now, or spend precious time exposing the system that will cause the next one. How do you balance rescue and responsibility?",
+          "text": "A collapsing district needs help now, while the failure that caused it remains hidden. What does the team handle first?",
           "answers": [
             {
-              "text": "Trust your witty side and turn that quality into a protective action, even if it makes the choice harder.",
+              "text": "Take the risk yourself if it keeps someone else from paying the price.",
               "result": "spider-man"
             },
             {
-              "text": "Trust your brave side and make room for the people affected, not just the people with authority.",
+              "text": "Give the people affected a say before anyone in power decides.",
               "result": "captain-america"
             },
             {
-              "text": "Trust your witty side and stay beside the person carrying the emotional cost after the public decision.",
+              "text": "Stay with the person who will carry the cost after the decision.",
               "result": "iron-man"
             },
             {
-              "text": "Trust your visionary side and use an unexpected angle that gives the group a second route forward.",
+              "text": "Find a route the crisis has not closed yet.",
               "result": "black-panther"
             }
           ]
         },
         {
           "category": "The team debrief / deep dive",
-          "text": "The mission succeeds, but your improvisation created a risk that another hero quietly absorbed. What does accountability look like after the applause?",
+          "text": "The team wins, but your last-minute plan exposed a teammate to danger. What belongs in the debrief?",
           "answers": [
             {
-              "text": "Let your witty side test the idea against its consequences before calling it clever.",
+              "text": "Count who pays for the shortcut before calling it clever.",
               "result": "spider-man"
             },
             {
-              "text": "Let your brave side learn enough to act without turning knowledge into another form of control.",
+              "text": "Learn what the knowledge lets you control before you use it.",
               "result": "captain-america"
             },
             {
-              "text": "Let your witty side keep the useful lesson while refusing to inherit the damage.",
+              "text": "Keep the lesson and stop the harm becoming someone else’s inheritance.",
               "result": "iron-man"
             },
             {
-              "text": "Let your visionary side protect the future people who were not in the room cannot yet see.",
+              "text": "Ask what this choice means for people who cannot speak in the room.",
               "result": "black-panther"
             }
           ]
@@ -4888,6 +4998,7 @@
       "results": [
         {
           "id": "spider-man",
+        "cardTreatment": "seal",
           "name": "Spider-Man",
           "archetype": "The quick-thinking helper",
           "description": "You bring responsibility, humor, and an ability to turn a bad angle into a workable one. You care most when the problem has a face and a name.",
@@ -4900,6 +5011,7 @@
         },
         {
           "id": "captain-america",
+        "cardTreatment": "ribbon",
           "name": "Captain America",
           "archetype": "The principled anchor",
           "description": "You give a team a moral center without pretending the right answer is always easy. Your courage is clearest when it protects people who cannot return the favor.",
@@ -4912,6 +5024,7 @@
         },
         {
           "id": "iron-man",
+        "cardTreatment": "ledger",
           "name": "Iron Man",
           "archetype": "The inventive fixer",
           "description": "You meet impossible problems with curiosity, engineering, and a willingness to own the consequences of your own ideas.",
@@ -4924,6 +5037,7 @@
         },
         {
           "id": "black-panther",
+        "cardTreatment": "ticket",
           "name": "Black Panther",
           "archetype": "The responsible sovereign",
           "description": "You see power as a relationship with a community, not a private trophy. You think strategically and care about what lasts after the dramatic moment.",
@@ -4934,7 +5048,11 @@
             "Visionary"
           ]
         }
-      ]
+      ],
+      "kind": "Team role",
+      "title": "What would you do on a hero team?",
+      "intro": "Take the role you would bring when a rescue turns complicated and the team has to answer for its choices.",
+      "spoilerNote": "Lore note: Uses broad superhero themes. Major plot turns are left out."
     },
     "disney-story-role": {
       "id": "disney-story-role",
@@ -5122,44 +5240,44 @@
         },
         {
           "category": "The wish with fine print / deep dive",
-          "text": "A magical bargain can give you the dream you want, but it also freezes one part of your life in the version that made the dream possible. What do you protect?",
+          "text": "A bargain offers the dream you want and asks you to give up the chance to change. What matters before you accept?",
           "answers": [
             {
-              "text": "Trust your curious side and turn that quality into a protective action, even if it makes the choice harder.",
+              "text": "Take the risk yourself if it keeps someone else from paying the price.",
               "result": "alice"
             },
             {
-              "text": "Trust your adaptable side and make room for the people affected, not just the people with authority.",
+              "text": "Give the people affected a say before anyone in power decides.",
               "result": "mulan"
             },
             {
-              "text": "Trust your mischievous side and stay beside the person carrying the emotional cost after the public decision.",
+              "text": "Stay with the person who will carry the cost after the decision.",
               "result": "stitch"
             },
             {
-              "text": "Trust your practical side and use an unexpected angle that gives the group a second route forward.",
+              "text": "Find a route the crisis has not closed yet.",
               "result": "tiana"
             }
           ]
         },
         {
           "category": "The storybook revision / deep dive",
-          "text": "A storyteller offers to remove the painful chapter from your tale. The ending would be happier, but the people you became through that chapter would not exist. What do you choose?",
+          "text": "A story can skip its painful chapter, but the people who helped you through it disappear from the ending. What do you keep?",
           "answers": [
             {
-              "text": "Let your curious side test the idea against its consequences before calling it clever.",
+              "text": "Count who pays for the shortcut before calling it clever.",
               "result": "alice"
             },
             {
-              "text": "Let your adaptable side learn enough to act without turning knowledge into another form of control.",
+              "text": "Learn what the knowledge lets you control before you use it.",
               "result": "mulan"
             },
             {
-              "text": "Let your mischievous side keep the useful lesson while refusing to inherit the damage.",
+              "text": "Keep the lesson and stop the harm becoming someone else’s inheritance.",
               "result": "stitch"
             },
             {
-              "text": "Let your practical side protect the future people who were not in the room cannot yet see.",
+              "text": "Ask what this choice means for people who cannot speak in the room.",
               "result": "tiana"
             }
           ]
@@ -5168,6 +5286,7 @@
       "results": [
         {
           "id": "alice",
+        "cardTreatment": "ribbon",
           "name": "Alice",
           "archetype": "The curious wanderer",
           "description": "You follow wonder wherever it leads, but you are not passive about it. Your questions help you find a more interesting way through the world.",
@@ -5180,6 +5299,7 @@
         },
         {
           "id": "mulan",
+        "cardTreatment": "ledger",
           "name": "Mulan",
           "archetype": "The adaptable braveheart",
           "description": "You become capable by meeting the moment honestly. You learn quickly, protect fiercely, and refuse to let a role decide your entire life.",
@@ -5192,6 +5312,7 @@
         },
         {
           "id": "stitch",
+        "cardTreatment": "ticket",
           "name": "Stitch",
           "archetype": "The chaotic-hearted loyalist",
           "description": "You may bring a little disruption, but your loyalty is unmistakable. Once you know where home is, you protect it with your whole unusual heart.",
@@ -5204,6 +5325,7 @@
         },
         {
           "id": "tiana",
+        "cardTreatment": "orbit",
           "name": "Tiana",
           "archetype": "The determined builder",
           "description": "You honor dreams by giving them structure. Your ambition is practical, generous, and powered by the belief that good work can create a place for more people.",
@@ -5214,7 +5336,11 @@
             "Practical"
           ]
         }
-      ]
+      ],
+      "kind": "Story role",
+      "title": "What part would you play in a storybook?",
+      "intro": "Find whether you would chase the question, face the task, make a home, or build the dream.",
+      "spoilerNote": "Lore note: Uses broad storybook themes. Major plot turns are left out."
     },
     "star-wars-force-compass": {
       "id": "star-wars-force-compass",
@@ -5379,7 +5505,7 @@
           ]
         },
         {
-          "category": "The next generation",
+          "category": "What you pass on",
           "text": "What lesson would you pass on?",
           "answers": [
             {
@@ -5402,44 +5528,44 @@
         },
         {
           "category": "The contested legacy / deep dive",
-          "text": "A revered tradition could unite the galaxy, but only if everyone agrees to inherit its old hierarchy. When do you preserve a legacy and when do you break it?",
+          "text": "A galactic order promises unity if everyone accepts its old hierarchy. What would make that legacy worth keeping?",
           "answers": [
             {
-              "text": "Trust your hopeful side and turn that quality into a protective action, even if it makes the choice harder.",
+              "text": "Take the risk yourself if it keeps someone else from paying the price.",
               "result": "luke"
             },
             {
-              "text": "Trust your principled side and make room for the people affected, not just the people with authority.",
+              "text": "Give the people affected a say before anyone in power decides.",
               "result": "leia"
             },
             {
-              "text": "Trust your bold side and stay beside the person carrying the emotional cost after the public decision.",
+              "text": "Stay with the person who will carry the cost after the decision.",
               "result": "han"
             },
             {
-              "text": "Trust your independent side and use an unexpected angle that gives the group a second route forward.",
+              "text": "Find a route the crisis has not closed yet.",
               "result": "rey"
             }
           ]
         },
         {
           "category": "The difficult alliance / deep dive",
-          "text": "An opponent offers a real chance to stop a larger threat, but the alliance may make your friends doubt what you stand for. What must be true before you act?",
+          "text": "An opponent offers a chance to stop a greater danger. What terms would let you take the offer without surrendering your judgment?",
           "answers": [
             {
-              "text": "Let your hopeful side test the idea against its consequences before calling it clever.",
+              "text": "Count who pays for the shortcut before calling it clever.",
               "result": "luke"
             },
             {
-              "text": "Let your principled side learn enough to act without turning knowledge into another form of control.",
+              "text": "Learn what the knowledge lets you control before you use it.",
               "result": "leia"
             },
             {
-              "text": "Let your bold side keep the useful lesson while refusing to inherit the damage.",
+              "text": "Keep the lesson and stop the harm becoming someone else’s inheritance.",
               "result": "han"
             },
             {
-              "text": "Let your independent side protect the future people who were not in the room cannot yet see.",
+              "text": "Ask what this choice means for people who cannot speak in the room.",
               "result": "rey"
             }
           ]
@@ -5448,6 +5574,7 @@
       "results": [
         {
           "id": "luke",
+        "cardTreatment": "ticket",
           "name": "Luke Skywalker",
           "archetype": "The hopeful learner",
           "description": "You believe people are more than the worst thing they have done. You keep learning, keep hoping, and still pay attention to the consequences.",
@@ -5460,6 +5587,7 @@
         },
         {
           "id": "leia",
+        "cardTreatment": "orbit",
           "name": "Leia Organa",
           "archetype": "The commanding idealist",
           "description": "You turn strong opinions into useful action. You want the plan to protect people after the speech is over.",
@@ -5472,6 +5600,7 @@
         },
         {
           "id": "han",
+        "cardTreatment": "frame",
           "name": "Han Solo",
           "archetype": "The reluctant risk-taker",
           "description": "You trust your instincts, your people, and a plan that can be improvised mid-flight. Give you a clear deal and someone worth protecting, and you take the ridiculous route.",
@@ -5484,6 +5613,7 @@
         },
         {
           "id": "rey",
+        "cardTreatment": "seal",
           "name": "Rey",
           "archetype": "The self-defining survivor",
           "description": "You work out who you are by what you do next. A label may be part of your story, but it does not get to write the ending.",
@@ -5494,7 +5624,11 @@
             "Independent"
           ]
         }
-      ]
+      ],
+      "kind": "Force compass",
+      "title": "What would guide your choices in the galaxy?",
+      "intro": "Choose what you would carry through a broken tradition and an uneasy alliance.",
+      "spoilerNote": "Lore note: Uses Jedi and galactic themes. Major plot turns are left out."
     },
     "stranger-things-survival-role": {
       "id": "stranger-things-survival-role",
@@ -5575,7 +5709,7 @@
           "text": "Which clue hooks you first?",
           "answers": [
             {
-              "text": "The feeling that something powerful is underneath it.",
+              "text": "The feeling that a dangerous presence is underneath it.",
               "result": "eleven"
             },
             {
@@ -5682,44 +5816,44 @@
         },
         {
           "category": "The official explanation / deep dive",
-          "text": "The town finally accepts an explanation that keeps everyone calm, but one missing detail suggests someone is still in danger. Do you reopen the case?",
+          "text": "The town wants to close the case, but a radio signal points to an unresolved threat. How do you respond?",
           "answers": [
             {
-              "text": "Trust your protective side and turn that quality into a protective action, even if it makes the choice harder.",
+              "text": "Take the risk yourself if it keeps someone else from paying the price.",
               "result": "eleven"
             },
             {
-              "text": "Trust your inventive side and make room for the people affected, not just the people with authority.",
+              "text": "Give the people affected a say before anyone in power decides.",
               "result": "dustin"
             },
             {
-              "text": "Trust your dependable side and stay beside the person carrying the emotional cost after the public decision.",
+              "text": "Stay with the person who will carry the cost after the decision.",
               "result": "steve"
             },
             {
-              "text": "Trust your focused side and use an unexpected angle that gives the group a second route forward.",
+              "text": "Find a route the crisis has not closed yet.",
               "result": "nancy"
             }
           ]
         },
         {
           "category": "The door in the wall / deep dive",
-          "text": "You find a way to close the strange door, but doing so may strand someone on the other side. How do you make the choice?",
+          "text": "A way to close the gate may leave someone trapped beyond it. What do you check before acting?",
           "answers": [
             {
-              "text": "Let your protective side test the idea against its consequences before calling it clever.",
+              "text": "Count who pays for the shortcut before calling it clever.",
               "result": "eleven"
             },
             {
-              "text": "Let your inventive side learn enough to act without turning knowledge into another form of control.",
+              "text": "Learn what the knowledge lets you control before you use it.",
               "result": "dustin"
             },
             {
-              "text": "Let your dependable side keep the useful lesson while refusing to inherit the damage.",
+              "text": "Keep the lesson and stop the harm becoming someone else’s inheritance.",
               "result": "steve"
             },
             {
-              "text": "Let your focused side protect the future people who were not in the room cannot yet see.",
+              "text": "Ask what this choice means for people who cannot speak in the room.",
               "result": "nancy"
             }
           ]
@@ -5728,6 +5862,7 @@
       "results": [
         {
           "id": "eleven",
+        "cardTreatment": "orbit",
           "name": "Eleven",
           "archetype": "The fiercely protective force",
           "description": "You feel deeply and protect fiercely. Your strength is also the choice to keep learning who you are beyond what others tried to make you.",
@@ -5740,6 +5875,7 @@
         },
         {
           "id": "dustin",
+        "cardTreatment": "frame",
           "name": "Dustin Henderson",
           "archetype": "The inventive theorist",
           "description": "You meet the impossible with a theory, a joke, and a surprisingly useful amount of preparation. Curiosity is your way of keeping the group brave.",
@@ -5752,6 +5888,7 @@
         },
         {
           "id": "steve",
+        "cardTreatment": "seal",
           "name": "Steve Harrington",
           "archetype": "The dependable protector",
           "description": "You may not have asked to be in charge, but you keep showing up with practical courage. People trust you because your care becomes action.",
@@ -5764,6 +5901,7 @@
         },
         {
           "id": "nancy",
+        "cardTreatment": "ribbon",
           "name": "Nancy Wheeler",
           "archetype": "The determined investigator",
           "description": "You do not let a convenient story close the case. Persistence, courage, and attention to evidence help you turn questions into action.",
@@ -5774,7 +5912,11 @@
             "Focused"
           ]
         }
-      ]
+      ],
+      "kind": "Survival role",
+      "title": "What would you do when Hawkins gets strange?",
+      "intro": "Choose how you would follow the signal while keeping the group safe.",
+      "spoilerNote": "Lore note: Uses Hawkins and supernatural themes. Major plot turns are left out."
     },
     "hunger-games-resistance-role": {
       "id": "hunger-games-resistance-role",
@@ -5797,7 +5939,7 @@
               "result": "peeta"
             },
             {
-              "text": "Study the game until I can find leverage.",
+              "text": "Study the game until I can find an opening.",
               "result": "haymitch"
             },
             {
@@ -5874,7 +6016,7 @@
         },
         {
           "category": "The sponsor",
-          "text": "Someone powerful offers help with strings attached. You ask...",
+          "text": "An influential sponsor offers help with strings attached. You ask...",
           "answers": [
             {
               "text": "Who is in immediate danger if I refuse?",
@@ -5885,7 +6027,7 @@
               "result": "peeta"
             },
             {
-              "text": "What leverage does the offer create later?",
+              "text": "What control might the offer give them later?",
               "result": "haymitch"
             },
             {
@@ -5962,44 +6104,44 @@
         },
         {
           "category": "The perfect symbol / deep dive",
-          "text": "The resistance can turn one person into a powerful public symbol, but the performance may erase their private choices. What matters before the image is used?",
+          "text": "A broadcast could turn one tribute into the face of the rebellion. How do you keep the person from becoming another prop?",
           "answers": [
             {
-              "text": "Trust your protective side and turn that quality into a protective action, even if it makes the choice harder.",
+              "text": "Take the risk yourself if it keeps someone else from paying the price.",
               "result": "katniss"
             },
             {
-              "text": "Trust your creative side and make room for the people affected, not just the people with authority.",
+              "text": "Give the people affected a say before anyone in power decides.",
               "result": "peeta"
             },
             {
-              "text": "Trust your resourceful side and stay beside the person carrying the emotional cost after the public decision.",
+              "text": "Stay with the person who will carry the cost after the decision.",
               "result": "haymitch"
             },
             {
-              "text": "Trust your resilient side and use an unexpected angle that gives the group a second route forward.",
+              "text": "Find a route the crisis has not closed yet.",
               "result": "johanna"
             }
           ]
         },
         {
           "category": "The ceasefire bargain / deep dive",
-          "text": "An official offers a ceasefire that would save lives now but leave the machinery of control intact. How do you judge the bargain?",
+          "text": "An official offers a ceasefire that pauses the violence but preserves control. What would you require before accepting?",
           "answers": [
             {
-              "text": "Let your protective side test the idea against its consequences before calling it clever.",
+              "text": "Count who pays for the shortcut before calling it clever.",
               "result": "katniss"
             },
             {
-              "text": "Let your creative side learn enough to act without turning knowledge into another form of control.",
+              "text": "Learn what the knowledge lets you control before you use it.",
               "result": "peeta"
             },
             {
-              "text": "Let your resourceful side keep the useful lesson while refusing to inherit the damage.",
+              "text": "Keep the lesson and stop the harm becoming someone else’s inheritance.",
               "result": "haymitch"
             },
             {
-              "text": "Let your resilient side protect the future people who were not in the room cannot yet see.",
+              "text": "Ask what this choice means for people who cannot speak in the room.",
               "result": "johanna"
             }
           ]
@@ -6008,6 +6150,7 @@
       "results": [
         {
           "id": "katniss",
+        "cardTreatment": "orbit",
           "name": "Katniss Everdeen",
           "archetype": "The protective survivor",
           "description": "You are alert to danger, fiercely protective, and more willing to act than to perform. Your care is practical: you notice what people need and move toward it.",
@@ -6020,6 +6163,7 @@
         },
         {
           "id": "peeta",
+        "cardTreatment": "frame",
           "name": "Peeta Mellark",
           "archetype": "The humane idealist",
           "description": "You understand that survival without humanity is its own kind of loss. Your strength is keeping empathy and imagination alive under pressure.",
@@ -6032,9 +6176,10 @@
         },
         {
           "id": "haymitch",
+        "cardTreatment": "seal",
           "name": "Haymitch Abernathy",
           "archetype": "The sharp strategist",
-          "description": "You see the machinery behind the spectacle. Experience has made you wary, but it has also made you good at finding leverage that gives people a chance.",
+          "description": "You see the machinery behind the spectacle. Experience has made you wary, and it has taught you to spot an opening that gives people a chance.",
           "traits": [
             "Strategic",
             "Perceptive",
@@ -6044,6 +6189,7 @@
         },
         {
           "id": "johanna",
+        "cardTreatment": "ribbon",
           "name": "Johanna Mason",
           "archetype": "The fiercely independent challenger",
           "description": "You refuse to make yourself comfortable for someone else’s approval. Your bluntness protects a strong instinct for freedom and a deep intolerance of control.",
@@ -6054,7 +6200,11 @@
             "Resilient"
           ]
         }
-      ]
+      ],
+      "kind": "Resistance role",
+      "title": "What would you protect in a rebellion?",
+      "intro": "Choose how you would choose what freedom requires when the spectacle controls the rules.",
+      "spoilerNote": "Lore note: Uses arena and resistance themes. Major plot turns are left out."
     }
   }
 };

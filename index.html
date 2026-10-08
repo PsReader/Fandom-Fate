@@ -504,8 +504,8 @@ body.easter-egg-found .fandom-theme-mark{animation:egg-mark-pulse .7s ease-out b
 .result-actions .button{min-height:46px}
 }
 </style>
-  <script src="quiz-data.js?v=2" defer></script>
-  <script src="app.js?v=2" defer></script>
+  <script src="quiz-data.js?v=3" defer></script>
+  <script src="app.js?v=3" defer></script>
   <link rel="canonical" href="https://fandomfate.site.je/">
   <meta property="og:url" content="https://fandomfate.site.je/">
 </head>
@@ -623,6 +623,12 @@ body.easter-egg-found .fandom-theme-mark{animation:egg-mark-pulse .7s ease-out b
           <span class="quiz-theme-mark" id="quizThemeMark">HP</span>
           <span class="quiz-theme-tagline" id="quizThemeTagline">Choose your charm, your house, and the kind of magic you bring to a room.</span>
         </div>
+        <header class="quiz-identity" aria-live="polite">
+          <p class="eyebrow" id="quizKind">Character match</p>
+          <h2 id="quizTitle">Who are you in this story?</h2>
+          <p id="quizIntro"></p>
+          <p class="quiz-spoiler-note" id="quizSpoilerNote" hidden></p>
+        </header>
         <div class="quiz-progress-wrap">
           <div class="progress-copy"><span id="questionCount">QUESTION 1 OF 8</span><button class="previous-question" id="previousQuestion" type="button" disabled>Previous</button></div>
           <div class="progress-track" id="progressTrack" role="progressbar" aria-label="Quiz progress" aria-valuemin="0" aria-valuemax="8" aria-valuenow="1"><span id="progressBar"></span></div>
@@ -631,7 +637,7 @@ body.easter-egg-found .fandom-theme-mark{animation:egg-mark-pulse .7s ease-out b
         <div class="question-card">
           <p class="eyebrow" id="questionCategory">A little about you</p>
           <h1 id="questionText" tabindex="-1"></h1>
-          <p class="question-hint">Pick what you'd actually do, not what sounds impressive.</p>
+          <p class="question-hint">Choose the answer closest to your first instinct.</p>
           <div class="answer-list" id="answerList" role="group" aria-labelledby="questionText"></div>
           <p class="quiz-footnote">First thought counts. Overthinking is optional.</p>
         </div>
@@ -641,7 +647,9 @@ body.easter-egg-found .fandom-theme-mark{animation:egg-mark-pulse .7s ease-out b
         <div class="result-topline"><button class="text-button" id="resultBack" type="button">Explore fandoms</button></div>
         <article class="result-card" id="resultCard">
           <div class="result-badge" id="resultBadge">YOUR CHARACTER MATCH</div>
+          <span class="result-treatment-mark" aria-hidden="true"></span>
           <p class="result-intro">In the <span id="resultFandomName">Harry Potter</span> universe…</p>
+          <p class="result-quiz-title" id="resultQuizTitle"></p>
           <p class="result-theme-note" id="resultThemeNote"></p>
           <h1 id="resultHeading"><span id="resultLead">You are</span> <span id="resultName">Hermione</span></h1>
           <p class="result-archetype" id="resultArchetype"></p>
@@ -672,5 +680,46 @@ body.easter-egg-found .fandom-theme-mark{animation:egg-mark-pulse .7s ease-out b
       <p class="disclaimer">Fandom Fate is an unofficial fan-made project and is not affiliated with or endorsed by any franchise or rights holder. All franchise names and characters belong to their respective owners.</p>
     </footer>
   </div>
+  <style>
+    /* Quiz identity copy names the format and its lens before the first prompt. */
+    .quiz-identity{max-width:760px;margin:27px auto 0;padding:0 12px;text-align:center}
+    .quiz-identity .eyebrow{margin:0 0 7px;color:var(--page-accent,var(--red));font-size:9px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+    .quiz-identity h2{margin:0;color:var(--ink);font-family:var(--serif);font-size:clamp(22px,4vw,32px);line-height:1.16}
+    .quiz-identity>p:not(.eyebrow){max-width:620px;margin:8px auto 0;color:var(--muted);font-size:13px;line-height:1.55}
+    .quiz-identity .quiz-spoiler-note{display:inline-block;padding:6px 9px;border:1px solid var(--page-ink,var(--ink));background:var(--page-soft,var(--paper-hi));color:var(--page-ink,var(--ink));font-size:11px;font-weight:700}
+    .result-quiz-title{margin:4px 0 0;color:var(--page-ink,var(--ink));font-family:var(--mono);font-size:9px;font-weight:700;letter-spacing:.05em;text-transform:uppercase}
+    /* Design read: a result card for fandom quiz players, printed story zine language, E2/R2/M1. The matched character stays central. */
+    /* Each frame borrows its geometry from the existing fandom texture: letter, road, seal, panels, arch, orbit, signal, or stitch. */
+    body[data-fandom="wizarding-world"] .result-card{border-radius:18px 3px 18px 3px}
+    body[data-fandom="wizarding-world"] .result-card:after{content:"";position:absolute;top:16px;right:18px;width:20px;height:20px;background:radial-gradient(circle,var(--page-accent) 2px,transparent 3px) 0 0/10px 10px}
+    body[data-fandom="lord-of-the-rings"] .result-card{border-width:3px;border-top-width:9px;border-radius:2px;box-shadow:5px 7px 0 var(--page-ink)}
+    body[data-fandom="lord-of-the-rings"] .result-card:after{content:"";position:absolute;right:18px;bottom:16px;width:34px;height:16px;border-top:2px solid var(--page-accent);border-radius:50%}
+    body[data-fandom="lord-of-the-mysteries"] .result-card{outline:1px solid var(--page-accent);outline-offset:-8px;border-radius:50% 50% 3px 3px / 14px 14px 3px 3px;box-shadow:4px 6px 0 var(--page-ink)}
+    body[data-fandom="lord-of-the-mysteries"] .result-card:after{content:"";position:absolute;top:14px;right:17px;width:18px;height:18px;border:2px solid var(--page-accent);border-radius:50%;box-shadow:inset 0 0 0 4px var(--page-soft)}
+    body[data-fandom="marvel"] .result-card{border-radius:2px;box-shadow:10px 10px 0 var(--page-ink)}
+    body[data-fandom="marvel"] .result-card:after{content:"";position:absolute;top:0;right:0;width:38px;height:38px;background:linear-gradient(135deg,transparent 49%,var(--page-accent) 50%)}
+    body[data-fandom="disney"] .result-card{border-width:3px;border-radius:28px 28px 5px 5px;box-shadow:0 7px 0 var(--page-ink)}
+    body[data-fandom="disney"] .result-card:after{content:"";position:absolute;top:13px;right:18px;width:18px;height:18px;border:2px dotted var(--page-accent);border-radius:50%}
+    body[data-fandom="star-wars"] .result-card{border-radius:2px;box-shadow:inset 0 0 0 5px var(--page-soft),inset 0 0 0 7px var(--page-ink)}
+    body[data-fandom="star-wars"] .result-card:after{content:"";position:absolute;top:19px;right:13px;width:30px;height:10px;border:2px solid var(--page-accent);border-radius:50%;transform:rotate(-16deg)}
+    body[data-fandom="stranger-things"] .result-card{border-style:double;border-width:5px;border-radius:0;box-shadow:6px 6px 0 var(--page-ink)}
+    body[data-fandom="stranger-things"] .result-card:after{content:"";position:absolute;top:18px;right:17px;width:24px;height:10px;border-top:2px double var(--page-accent);border-bottom:2px double var(--page-accent);transform:skew(-16deg)}
+    body[data-fandom="hunger-games"] .result-card{border-radius:2px;box-shadow:inset 0 0 0 4px var(--page-soft),7px 7px 0 var(--page-ink)}
+    body[data-fandom="hunger-games"] .result-card:after{content:"";position:absolute;top:15px;right:20px;width:14px;height:14px;background:var(--page-accent);transform:rotate(45deg)}
+    .result-treatment-mark{position:absolute;top:48px;right:38px;width:30px;height:30px;border:2px solid var(--page-accent,var(--red));color:var(--page-accent,var(--red));pointer-events:none}
+    .result-card[data-treatment="seal"] .result-treatment-mark{border-radius:50%;box-shadow:inset 0 0 0 5px var(--page-soft),inset 0 0 0 7px var(--page-accent)}
+    .result-card[data-treatment="ribbon"] .result-treatment-mark{width:22px;height:40px;top:0;right:56px;border:0;background:var(--page-accent);clip-path:polygon(0 0,100% 0,100% 100%,50% 78%,0 100%)}
+    .result-card[data-treatment="ledger"]{text-align:left;padding-left:64px;border-left-width:8px}
+    .result-card[data-treatment="ledger"] .result-intro,.result-card[data-treatment="ledger"] .result-quiz-title{text-align:left}
+    .result-card[data-treatment="ledger"] h1,.result-card[data-treatment="ledger"] .result-description{text-align:left;margin-left:0;margin-right:0}
+    .result-card[data-treatment="ledger"] .result-divider{margin-left:0}
+    .result-card[data-treatment="ledger"] .trait-list{justify-content:flex-start}
+    .result-card[data-treatment="ticket"]{border-right-style:dashed;border-right-width:3px}
+    .result-card[data-treatment="ticket"] .result-treatment-mark{width:20px;height:46px;top:50%;right:18px;transform:translateY(-50%);border-width:1px 0;border-style:dashed}
+    .result-card[data-treatment="orbit"] .result-treatment-mark{width:42px;height:18px;top:51px;right:32px;border-radius:50%;transform:rotate(-28deg)}
+    .result-card[data-treatment="frame"] .result-treatment-mark{width:25px;height:25px;top:17px;right:18px;box-shadow:inset 0 0 0 5px var(--page-soft)}
+    @media(max-width:700px){.result-treatment-mark{top:48px;right:24px}.result-card[data-treatment="ledger"]{padding-left:28px}.result-card[data-treatment="ledger"] .result-treatment-mark{right:14px}.result-card[data-treatment="ticket"] .result-treatment-mark{right:10px}.result-card[data-treatment="orbit"] .result-treatment-mark{right:19px}}
+    @media(max-width:600px){.quiz-identity{margin-top:22px}.quiz-identity>p:not(.eyebrow){font-size:12px}}
+  </style>
 </body>
 </html>
